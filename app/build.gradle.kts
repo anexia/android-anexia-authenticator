@@ -8,21 +8,19 @@ plugins {
     alias(libs.plugins.kotlinParcelize)
     alias(libs.plugins.kotlinKapt)
     alias(libs.plugins.ksp)
-    id("com.google.gms.google-services")
-    id("com.google.firebase.crashlytics")
 }
 
 android {
     namespace = "com.twofasapp"
 
     defaultConfig {
-        applicationId = "com.twofasapp"
-        versionName = "5.3.5"
-        versionCode = 5000017
+        applicationId = "at.anexia.authenticator"
+        versionName = "2.0.0"
+        versionCode = 20000
 
-        val versionCodeOffset = 5000000
+        val versionCodeOffset = 20000
 
-        archivesName.set("TwoFas-$versionName-${versionCode!! - versionCodeOffset}")
+        archivesName.set("AnxAuth-$versionName-${versionCode!! - versionCodeOffset}")
     }
 
     ksp {

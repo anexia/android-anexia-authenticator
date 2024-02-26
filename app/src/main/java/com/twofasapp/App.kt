@@ -62,7 +62,7 @@ class App : Application() {
 
         cloudSyncWorkDispatcher.tryDispatch(CloudSyncTrigger.AppStart)
 
-        FirebaseCrashlytics.getInstance().setCrashlyticsCollectionEnabled(sendCrashLogsPreference.get())
+        // FirebaseCrashlytics.getInstance().setCrashlyticsCollectionEnabled(sendCrashLogsPreference.get())
 
         try {
             SQLiteDatabase.loadLibs(this)
