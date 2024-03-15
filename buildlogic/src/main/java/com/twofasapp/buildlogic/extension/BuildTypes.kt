@@ -14,19 +14,21 @@ internal fun Project.applyBuildTypes(
                 signingConfig = signingConfigs.getByName("debug")
                 applicationIdSuffix = ".debug"
             }
+            /*
             create("releaseLocal") {
                 isMinifyEnabled = true
                 isDebuggable = false
                 signingConfig = signingConfigs.getByName("releaseLocal")
                 proguardFiles(getDefaultProguardFile("proguard-android-optimize.txt"), "proguard-rules.pro")
                 matchingFallbacks += "release"
-            }
+            }*/
+            /*
             getByName("release") {
                 isMinifyEnabled = true
                 isDebuggable = false
                 signingConfig = signingConfigs.getByName("release")
                 proguardFiles(getDefaultProguardFile("proguard-android-optimize.txt"), "proguard-rules.pro")
-            }
+            }*/
         }
     }
 }
