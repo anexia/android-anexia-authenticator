@@ -16,6 +16,7 @@ import android.os.PersistableBundle
 import android.provider.Settings
 import android.view.WindowManager
 import android.widget.Toast
+import androidx.activity.ComponentActivity
 import androidx.activity.compose.LocalOnBackPressedDispatcherOwner
 import androidx.annotation.StringRes
 import androidx.compose.runtime.Composable
@@ -24,7 +25,6 @@ import androidx.compose.ui.platform.LocalDensity
 import androidx.compose.ui.platform.LocalInspectionMode
 import androidx.compose.ui.platform.UriHandler
 import androidx.compose.ui.unit.Dp
-import androidx.core.app.ComponentActivity
 import com.twofasapp.locale.R
 import com.twofasapp.locale.Strings
 import com.twofasapp.locale.TwLocale
