@@ -55,6 +55,7 @@ class LockActivity : AppCompatActivity() {
     }
 
     override fun onBackPressed() {
+        super.onBackPressed()
         val canGoBack = intent.getBooleanExtra("canGoBack", false)
 
         if (canGoBack) {
