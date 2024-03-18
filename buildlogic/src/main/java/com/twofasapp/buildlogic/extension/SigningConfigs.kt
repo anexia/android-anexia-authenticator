@@ -12,9 +12,10 @@ internal fun Project.applySigningConfigs(
     applicationExtension.apply {
 
         val localConfig = Properties().apply {
-            load(FileInputStream(File(rootProject.rootDir, "config/config.properties")))
+            //load(FileInputStream(File(rootProject.rootDir, "config/config.properties")))
         }
 
+        /*
         signingConfigs {
             getByName("debug") {
                 storeFile = file("../config/debug_signing.jks")
@@ -34,6 +35,6 @@ internal fun Project.applySigningConfigs(
                 keyAlias = localConfig.getProperty("release.keyAlias")
                 keyPassword = localConfig.getProperty("release.keyPassword")
             }
-        }
+        }*/
     }
 }

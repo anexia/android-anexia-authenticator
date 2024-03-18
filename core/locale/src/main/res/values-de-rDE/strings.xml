@@ -15,7 +15,7 @@
     <string name="NSCameraUsageDescription">Wird zum Scannen von QR-Codes verwendet</string>
     <string name="NSFaceIDUsageDescription">Du kannst die Anwendung unter Verwendung von Face ID entsperren</string>
     <!-- MARK: - App -->
-    <string name="app__name">2FAS Authenticator</string>
+    <string name="app__name">Anexia Authenticator</string>
     <string name="commons__2fas">2FA Authenticator (2FAS App)</string>
     <string name="commons__OK">OK</string>
     <string name="commons__add">Hinzufügen</string>
@@ -530,7 +530,7 @@
     <string name="externalimport_google_authenticator">Google Authenticator</string>
     <string name="externalimport_aegis">Aegis</string>
     <string name="externalimport_raivo">Raivo OTP</string>
-    <string name="android__app_name">2FAS Auth</string>
+    <string name="android__app_name">Anexia Authenticator</string>
     <string name="commons__yes">Ja</string>
     <string name="commons__no">Nein</string>
     <string name="commons__search">Suchen</string>
