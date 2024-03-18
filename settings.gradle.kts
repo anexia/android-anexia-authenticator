@@ -17,7 +17,7 @@ dependencyResolutionManagement {
         maven { url = uri("https://jitpack.io") }
     }
 }
-rootProject.name = "2fas-android"
+rootProject.name = "anx-authenticator"
 include(":truetime")
 include(":app")
 include(":base")
