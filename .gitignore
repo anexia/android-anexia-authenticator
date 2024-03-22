@@ -46,8 +46,5 @@ config/debug_signing.jks
 config/release_signing.jks
 config/release_upload.jks
 config/release_upload_cert.pem
-app/src/debug/google-services.json
-app/src/main/google-services.json
-app/src/release/google-services.json
-app/src/releaseLocal/google-services.json
+app/google-services.json
 scripts/
