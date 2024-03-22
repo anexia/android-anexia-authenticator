@@ -8,10 +8,12 @@ plugins {
     alias(libs.plugins.kotlinParcelize)
     alias(libs.plugins.kotlinKapt)
     alias(libs.plugins.ksp)
+    id("com.google.gms.google-services")
+    id("com.google.firebase.crashlytics")
 }
 
 android {
-    namespace = "com.twofasapp"
+    namespace = "at.anexia"
 
     defaultConfig {
         applicationId = "at.anexia.authenticator"

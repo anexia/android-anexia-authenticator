@@ -4,6 +4,7 @@ import android.app.Application
 import androidx.lifecycle.DefaultLifecycleObserver
 import androidx.lifecycle.LifecycleOwner
 import androidx.lifecycle.ProcessLifecycleOwner
+import at.anexia.BuildConfig
 import com.google.firebase.crashlytics.FirebaseCrashlytics
 import com.twofasapp.base.AuthTracker
 import com.twofasapp.data.services.domain.CloudSyncTrigger
@@ -62,7 +63,7 @@ class App : Application() {
 
         cloudSyncWorkDispatcher.tryDispatch(CloudSyncTrigger.AppStart)
 
-        // FirebaseCrashlytics.getInstance().setCrashlyticsCollectionEnabled(sendCrashLogsPreference.get())
+        FirebaseCrashlytics.getInstance().setCrashlyticsCollectionEnabled(sendCrashLogsPreference.get())
 
         try {
             SQLiteDatabase.loadLibs(this)

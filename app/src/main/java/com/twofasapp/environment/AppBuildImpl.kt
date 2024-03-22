@@ -1,6 +1,6 @@
 package com.twofasapp.environment
 
-import com.twofasapp.BuildConfig
+import at.anexia.BuildConfig
 import com.twofasapp.common.environment.AppBuild
 import com.twofasapp.common.environment.BuildVariant
 import com.twofasapp.common.environment.BuildVariant.Debug

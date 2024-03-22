@@ -12,7 +12,7 @@ internal fun Project.applyBuildTypes(
                 isMinifyEnabled = false
                 isDebuggable = true
                 signingConfig = signingConfigs.getByName("debug")
-                applicationIdSuffix = ".debug"
+                // applicationIdSuffix = ".debug"
             }
             /*
             create("releaseLocal") {

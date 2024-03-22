@@ -1,6 +1,5 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
-    package="com.twofasapp">
+    xmlns:tools="http://schemas.android.com/tools">
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
@@ -52,7 +51,7 @@
         </provider>
 
         <service
-            android:name=".data.push.FcmMessagingService"
+            android:name="com.twofasapp.data.push.FcmMessagingService"
             android:exported="false"
             android:stopWithTask="false">
             <intent-filter>
@@ -79,7 +78,7 @@
         </service>
 
         <receiver
-            android:name=".widgets.WidgetProvider"
+            android:name="com.twofasapp.widgets.WidgetProvider"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
@@ -95,7 +94,7 @@
 
         <!-- ACTIVITIES -->
         <activity
-            android:name=".ui.main.StartActivity"
+            android:name="com.twofasapp.ui.main.StartActivity"
             android:exported="true"
             android:launchMode="singleTask"
             android:noHistory="false"
@@ -139,7 +138,7 @@
         </activity>
 
         <activity
-            android:name=".ui.main.MainActivity"
+            android:name="com.twofasapp.ui.main.MainActivity"
             android:label="Add service by scanning QR Code"
             android:launchMode="singleTask" />
 
