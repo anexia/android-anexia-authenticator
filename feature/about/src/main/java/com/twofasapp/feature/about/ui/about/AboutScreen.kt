@@ -84,28 +84,8 @@ private fun ScreenContent(
                 }
 
                 item {
-                    SettingsLink(title = TwLocale.strings.aboutTerms, icon = TwIcons.Terms, external = true) {
-                        uriHandler.openSafely(TwLocale.links.terms, activity)
-                    }
-                }
-
-                item {
                     SettingsLink(title = TwLocale.strings.aboutLicenses, icon = TwIcons.Licenses) {
                         onLicensesClick()
-                    }
-                }
-
-                item { SettingsDivider() }
-
-                item { SettingsHeader(title = TwLocale.strings.aboutShare) }
-
-                item {
-                    SettingsLink(title = TwLocale.strings.aboutTellFriend, icon = TwIcons.Share) {
-                        ShareCompat.IntentBuilder(activity)
-                            .setType("text/plain")
-                            .setChooserTitle("Share 2FAS")
-                            .setText(shareText)
-                            .startChooser()
                     }
                 }
 
@@ -129,11 +109,11 @@ private fun ScreenContent(
 
                 item {
                     SettingsLink(
-                        title = TwLocale.strings.aboutSocialDiscord,
-                        image = painterResource(id = com.twofasapp.designsystem.R.drawable.ic_discord),
+                        title = TwLocale.strings.aboutSocialInstagram,
+                        image = painterResource(id = com.twofasapp.designsystem.R.drawable.ic_youtube),
                         external = true
                     ) {
-                        uriHandler.openSafely(TwLocale.links.discord, activity)
+                        uriHandler.openSafely(TwLocale.links.instagram, activity)
                     }
                 }
 
@@ -159,31 +139,11 @@ private fun ScreenContent(
 
                 item {
                     SettingsLink(
-                        title = TwLocale.strings.aboutSocialGitHub,
-                        image = painterResource(id = com.twofasapp.designsystem.R.drawable.ic_github),
-                        external = true
-                    ) {
-                        uriHandler.openSafely(TwLocale.links.github, activity)
-                    }
-                }
-
-                item {
-                    SettingsLink(
                         title = TwLocale.strings.aboutSocialLinkedIn,
                         image = painterResource(id = com.twofasapp.designsystem.R.drawable.ic_linkedin),
                         external = true
                     ) {
                         uriHandler.openSafely(TwLocale.links.linkedin, activity)
-                    }
-                }
-
-                item {
-                    SettingsLink(
-                        title = TwLocale.strings.aboutSocialReddit,
-                        image = painterResource(id = com.twofasapp.designsystem.R.drawable.ic_reddit),
-                        external = true
-                    ) {
-                        uriHandler.openSafely(TwLocale.links.reddit, activity)
                     }
                 }
 

@@ -765,7 +765,7 @@
     <string name="settings__option_screenshots_confirm_title">Willst du Screenshots innerhalb der App zulassen?</string>
     <string name="settings__option_screenshots_confirm_description">Bist du sicher? Diese Option ermöglicht es dir, Screenshots von jedem Bildschirm innerhalb der App aufzunehmen und aufzuzeichnen. Allerdings erlaubt dies auch externe Versuche, Bildschirme in der App zu erfassen. Aus Sicherheitsgründen wird diese Option automatisch nach 5 Minuten deaktiviert.</string>
     <string name="social__social_media">Soziale Medien</string>
-    <string name="social__discord">Discord</string>
+    <string name="social__instagram">Instagram</string>
     <string name="social__youtube">YouTube</string>
     <string name="social__twitter">X (ehemals Twitter)</string>
     <string name="social__github">GitHub</string>

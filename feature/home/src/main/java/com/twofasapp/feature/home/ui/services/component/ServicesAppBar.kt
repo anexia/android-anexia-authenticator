@@ -110,22 +110,6 @@ internal fun ServicesAppBar(
             showBackButton = false,
             scrollBehavior = scrollBehavior,
             actions = {
-                Box {
-                    TwIconButton(
-                        painter = TwIcons.Notification,
-                        tint = TwTheme.color.iconTint,
-                        onClick = onNotificationsClick,
-                    )
-
-                    if (hasUnreadNotifications) {
-                        Badge(
-                            containerColor = TwTheme.color.primary,
-                            modifier = Modifier
-                                .align(Alignment.Center)
-                                .padding(start = 18.dp, bottom = 18.dp)
-                        )
-                    }
-                }
             }
         )
     }

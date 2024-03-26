@@ -131,7 +131,7 @@ class Strings(c: Context) {
     val aboutTellFriend = c.getString(R.string.settings__tell_a_friend)
     val aboutTellFriendShareText = c.getString(R.string.settings__recommendation)
     val aboutSocialMedia = c.getString(R.string.social__social_media)
-    val aboutSocialDiscord = c.getString(R.string.social__discord)
+    val aboutSocialInstagram = c.getString(R.string.social__instagram)
     val aboutSocialYouTube = c.getString(R.string.social__youtube)
     val aboutSocialTwitter = c.getString(R.string.social__twitter)
     val aboutSocialGitHub = c.getString(R.string.social__github)

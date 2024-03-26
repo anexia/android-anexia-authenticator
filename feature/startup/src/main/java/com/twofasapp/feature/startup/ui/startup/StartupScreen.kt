@@ -130,17 +130,6 @@ internal fun ScreenContent(
                 }
             }
 
-            if (pagerState.currentPage == 0) {
-                Text(
-                    text = TwLocale.strings.startupTermsLabel,
-                    style = MaterialTheme.typography.bodyMedium,
-                    color = TwTheme.color.onSurfaceSecondary,
-                    modifier = Modifier
-                        .clip(TwTheme.shape.roundedDefault)
-                        .clickable { uriHandler.openSafely(TwLocale.links.terms, context) }
-                        .padding(4.dp)
-                )
-            } else {
                 HorizontalPagerIndicator(
                     pagerState = pagerState,
                     activeColor = TwTheme.color.primary,
@@ -148,7 +137,6 @@ internal fun ScreenContent(
                     pageCount = pagerState.pageCount - 1,
                     pageIndexMapping = { it - 1 }
                 )
-            }
 
             Spacer(modifier = Modifier.height(36.dp))
 

@@ -6,17 +6,14 @@ import androidx.compose.runtime.Stable
 @Stable
 @Immutable
 class Links {
-    val playStore = "https://play.google.com/store/apps/details?id=com.twofasapp"
+    val playStore = "https://play.google.com/store/apps/details?id=at.anexia.authenticator"
     val terms = "https://2fas.com/terms-of-service"
     val privacyPolicy = "https://2fas.com/privacy-policy"
-    val donate = "https://2fas.com/donate"
     val support = "https://support.2fas.com"
     val browserExt = "https://2fas.com/be"
-    val youtube = "https://www.youtube.com/@2fas"
-    val twitter = "https://twitter.com/2FAS_com"
-    val discord = "https://discord.gg/q4cP6qh2g5"
-    val github = "https://github.com/twofas"
-    val linkedin = "https://www.linkedin.com/company/2fasapp/"
-    val reddit = "https://www.reddit.com/r/2fas_com"
-    val facebook = "https://facebook.com/twofas"
+    val youtube = "https://www.youtube.com/user/anexiagmbh"
+    val twitter = "https://twitter.com/_anexia"
+    val linkedin = "https://at.linkedin.com/company/anexia"
+    val instagram = "https://www.instagram.com/_anexia/"
+    val facebook = "https://www.facebook.com/anexiagmbh"
 }

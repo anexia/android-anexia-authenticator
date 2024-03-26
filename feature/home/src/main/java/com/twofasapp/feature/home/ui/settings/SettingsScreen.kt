@@ -102,24 +102,12 @@ private fun SettingsScreen(
             }
 
             item {
-                SettingsLink(title = TwLocale.strings.settingsSupport, icon = TwIcons.Support, external = true) {
-                    uriHandler.openSafely(TwLocale.links.support, activity)
-                }
-            }
-
-            item {
                 SettingsLink(title = TwLocale.strings.settingsAbout, icon = TwIcons.Info) {
                     listener.openAbout()
                 }
             }
 
             item { SettingsDivider() }
-
-            item {
-                SettingsLink(title = TwLocale.strings.settingsDonate, icon = TwIcons.Favorite, external = true) {
-                    uriHandler.openSafely(TwLocale.links.donate, activity)
-                }
-            }
 
             item {
                 Row(
@@ -129,12 +117,12 @@ private fun SettingsScreen(
                     horizontalArrangement = Arrangement.spacedBy(14.dp, Alignment.CenterHorizontally),
                 ) {
                     Image(
-                        painter = painterResource(id = com.twofasapp.designsystem.R.drawable.ic_discord),
+                        painter = painterResource(id = com.twofasapp.designsystem.R.drawable.ic_youtube),
                         contentDescription = null,
                         modifier = Modifier
                             .size(52.dp)
                             .clip(CircleShape)
-                            .clickable { uriHandler.openSafely(TwLocale.links.discord, activity) }
+                            .clickable { uriHandler.openSafely(TwLocale.links.instagram, activity) }
                             .padding(14.dp),
                     )
                     Image(
@@ -156,13 +144,13 @@ private fun SettingsScreen(
                             .padding(14.dp),
                     )
                     Icon(
-                        painter = painterResource(id = com.twofasapp.designsystem.R.drawable.ic_github),
+                        painter = painterResource(id = com.twofasapp.designsystem.R.drawable.ic_facebook),
                         contentDescription = null,
                         tint = TwTheme.color.onSurfacePrimary,
                         modifier = Modifier
                             .size(52.dp)
                             .clip(CircleShape)
-                            .clickable { uriHandler.openSafely(TwLocale.links.github, activity) }
+                            .clickable { uriHandler.openSafely(TwLocale.links.facebook, activity) }
                             .padding(14.dp),
                     )
                 }
