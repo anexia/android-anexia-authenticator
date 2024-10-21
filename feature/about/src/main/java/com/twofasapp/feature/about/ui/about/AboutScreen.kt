@@ -43,7 +43,6 @@ internal fun AboutScreen(
 
     ScreenContent(
         uiState = uiState,
-        versionName = viewModel.versionName,
         onLicensesClick = openLicenses,
         onReviewClick = { viewModel.reviewDone() },
         onSendCrashLogsToggle = { viewModel.toggleSendCrashLogs() }
@@ -53,7 +52,6 @@ internal fun AboutScreen(
 @Composable
 private fun ScreenContent(
     uiState: AboutUiState,
-    versionName: String,
     onLicensesClick: () -> Unit,
     onReviewClick: () -> Unit,
     onSendCrashLogsToggle: () -> Unit,
@@ -159,6 +157,20 @@ private fun ScreenContent(
 
                 item { SettingsDivider() }
 
+                item { SettingsHeader(title = TwLocale.strings.aboutSendCrashes) }
+
+                item {
+                    SettingsSwitch(
+                        title = TwLocale.strings.settingsSendCrashes,
+                        subtitle = TwLocale.strings.settingsSendCrashesBody,
+                        icon = TwIcons.Settings,
+                        checked = uiState.appSettings.sendCrashLogs,
+                        onCheckedChange = { onSendCrashLogsToggle() }
+                    )
+                }
+
+                item { SettingsDivider() }
+
                 item {
                     Row(
                         Modifier
@@ -167,7 +179,7 @@ private fun ScreenContent(
                             .padding(start = 24.dp, end = 16.dp)
                     ) {
                         Text(
-                            text = stringResource(id = R.string.settings__version, versionName),
+                            text = stringResource(id = R.string.settings__version, uiState.versionName),
                             color = TwTheme.color.onSurfaceSecondary,
                             style = TwTheme.typo.body3
                         )

@@ -224,6 +224,8 @@ private fun Step(
                 TwTextButton(
                     text = TwLocale.strings.startupBackupCloseCta,
                     onClick = openHome,
+                    textAlign = TextAlign.Center,
+                    modifier = Modifier.padding(horizontal = 16.dp)
                 )
             }
         }

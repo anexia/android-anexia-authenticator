@@ -2,10 +2,9 @@
 <!--
  Loco xml export: Android string resources
  Project: 2FAS App
- Release: Working copy
  Locale: en, English
  Exported by: rafakob
- Exported at: Wed, 14 Feb 2024 00:33:50 -0800
+ Exported at: Mon, 07 Oct 2024 09:37:26 -0700
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- InfoPlist.strings
@@ -304,7 +303,7 @@
     <!-- voiceover__sort_by -->
     <string name="voiceover__sort_by_title">Use Sort By to set service sorting</string>
     <string name="voiceover__spinner">Loading content</string>
-    <string name="backup__incorrect_secret">Couldn\'t backup tokens because \"%s\" secret contains illegal characters. Remove it from list and try again</string>
+    <string name="backup__incorrect_secret">Couldn\'t backup tokens because \"%s\" secret contains invalid characters. Remove it from list and try again</string>
     <string name="backup__import">Import</string>
     <string name="backup__export">Export</string>
     <string name="backup__backup_disabled_title">2FAS Backup will be disabled to protect its integrity</string>
@@ -329,10 +328,10 @@
     <string name="backup__section_description">RECOMMENDED: iCloud Sync keeps your tokens secure in Apple iCloud in case of loss or damage to your device. Keep it turned on.</string>
     <string name="backup__file_backup">File Backup</string>
     <!-- backup__use_file_backup_for -->
-    <string name="backup__file_backup_offline_title">Use File Backup for offline backup of your tokens</string>
+    <string name="backup__file_backup_offline_title">Use File Backup for offline backup of your tokens.</string>
     <string name="backup__backup_removal">Backup removal</string>
     <string name="backup__delete_2fas_backup">Delete 2FAS Backup</string>
-    <string name="backup__warning_introduction">Warning! If you delete 2FAS Backup, you will also erase all tokens from other devices synced with this account. To preserve the tokens on other devices, please ensure that you\'ve turned off the 2FAS Backup before the deletion</string>
+    <string name="backup__warning_introduction">Warning! If you delete 2FAS Backup, you will also erase all tokens from other devices synced with this account. To preserve the tokens on other devices, please ensure that you\'ve turned off the 2FAS Backup before the deletion.</string>
     <!-- backup__i_want_to_delete -->
     <string name="backup__delete_title">I want to delete the Backup</string>
     <string name="backup__export_to_backup_file">Export backup to file</string>
@@ -369,8 +368,6 @@
     <string name="backup__services_imported_count">%d services imported from file</string>
     <!-- backup__user_has_icloud_problem -->
     <string name="backup__icloud_problem">There\'s a problem with iCloud. Check system settings</string>
-    <!-- backup__newer_schema_unsupported -->
-    <string name="backup__newer_format_not_supported">This file is in a newer format version than the one the app supports</string>
     <!-- backup__encrypted_unsupported -->
     <string name="backup__encrypted_files_not_supported">This file is encrypted. We support only unencrypted files</string>
     <string name="tokens__copy_token">Copy token</string>
@@ -413,7 +410,7 @@
     <string name="settings__donations">Donations</string>
     <string name="settings__donate_twofas">Donate to 2FAS</string>
     <string name="new_version__new_version_title">New version</string>
-    <string name="new_version__new_version_message_ios">A new version of 2FAS is available on AppStore. Update now!</string>
+    <string name="new_version__new_version_message_ios">A new version of 2FAS is available on App Store. Update now!</string>
     <string name="new_version__update_action">Update now</string>
     <!-- new_version__skip_action -->
     <string name="new_version__skip_title">Skip this version</string>
@@ -421,7 +418,7 @@
     <string name="new_version__update_later">Update later</string>
     <string name="browser__browser_extension">Browser extension</string>
     <string name="browser__info_title">2FAS Web Browser extension</string>
-    <string name="browser__info_description_first">Install the 2FAS browser extension on your desktop computer</string>
+    <string name="browser__info_description_first">Install the 2FAS browser extension on your desktop computer.</string>
     <string name="browser__info_description_second">Pair it with your 2FAS app.</string>
     <string name="browser__more_info">More info:</string>
     <string name="browser__more_info_link_title">2fas.com/be</string>
@@ -713,7 +710,7 @@
     <string name="backup__import_error_file_size">The file you are trying to import is too big. Size limit is 10 MB.</string>
     <string name="backup__import_error_file_invalid">The file you are trying to import is invalid or damaged. Please choose another file.</string>
     <string name="appearance__toggle_active_search">Active search</string>
-    <string name="appearance__active_search_description">Active search on startup</string>
+    <string name="appearance__active_search_description">Active search on startup.</string>
     <string name="widgets__expires_in">Expires in:</string>
     <string name="widgets__settings">Widget settings</string>
     <string name="errors__input_integer_number">Input must be integer number</string>
@@ -773,7 +770,7 @@
     <string name="social__reddit">Reddit</string>
     <string name="social__facebook">Facebook</string>
     <string name="settings__hide_tokens_title">Hide tokens</string>
-    <string name="settings__hide_tokens_description">Tokens will be revealed on tap</string>
+    <string name="settings__hide_tokens_description">Tokens will be revealed on tap.</string>
     <string name="browser__pair_manually_cta">Pair manually</string>
     <string name="browser__pair_manually_hint">Pairing code</string>
     <string name="externalimport__info_authenticatorpro_title">Import tokens from Authenticator Pro</string>
@@ -815,7 +812,7 @@
     <string name="commons__pair">Pair</string>
     <string name="introduction__backup_icloud_title">Secure sync and backup</string>
     <!-- "**...**" means thar part between those asterisks will be in bold. -->
-    <string name="introduction__backup_icloud_description">2FAS uses iCloud for secure backup and sync of your 2FA tokens. The **encrypted** backup data is stored in iCloud, accessible **only by the 2FAS app**. Additionally, this feature aids with token **recovery and syncing** across iOS devices.\n\nIt\'s enabled by default and can disabled at any time in the app\'s backup settings.</string>
+    <string name="introduction__backup_icloud_description">2FAS uses iCloud for secure backup and sync of your 2FA tokens. The **encrypted** backup data is stored in iCloud, accessible **only by the 2FAS app**. Additionally, this feature aids with token **recovery and syncing** across iOS devices.\n\nIt\'s enabled by default and can be disabled at any time in the app\'s backup settings.</string>
     <string name="introduction__backup_icloud_cta">Learn more about backup</string>
     <string name="backup__enter_password_google_drive_msg1">It looks like your Google Drive backup file is password-protected. Type in the correct password to proceed. If you’d like to wipe your Google Drive backup file,</string>
     <string name="backup__enter_password_google_drive_msg2">tap here to see how</string>
@@ -830,4 +827,28 @@
     <string name="periodic_notification_donate">We\'re grateful for your support of 2FAS! 🌟 If you find our app helpful, consider making a donation to help us keep your digital world secure. Every bit helps! 🙏💙</string>
     <!-- DO NOT TRANSLATE! -->
     <string name="tokens__steam">STEAM</string>
+    <string name="widget__placeholder">Placeholder</string>
+    <string name="widget__size_not_supported">This size is not supported yet</string>
+    <string name="widget__settings_description">Select which Services you would like to display on the Widget. If no Services are available, make sure that you\'ve enabled Widgets in app Settings section</string>
+    <string name="widget__service_icon">Service icon</string>
+    <string name="widget__not_enabled">Widget functionality is not enabled in 2FAS Settings section</string>
+    <string name="widget__not_enabled_no_services">Widget functionality is not enabled in 2FAS Settings section and there are no services in the app available for selection</string>
+    <string name="widget__no_services">There are no services in the app available for selection</string>
+    <string name="widget__select_service_intent_description">Select Service you want to show on your 2FAS Widget</string>
+    <string name="widget__my_secured_account">My secured account</string>
+    <string name="widget__token">Token</string>
+    <string name="watch__intro">2FAS watchOS app is a companion app for the 2FAS iOS application. It will present services backed up using iCloud sync.\n\nFor quick access, add them to Favorite Services.\n\nPlease remember to donate so we can further improve the 2FAS platform!</string>
+    <string name="tokens__hotp_not_supported">HOTP services aren\'t supported yet</string>
+    <string name="tokens__favorite_services">Favorite Services</string>
+    <string name="security__enter_new_pin_short">Enter new PIN</string>
+    <string name="security__repeat_new_pin_short">Repeat new PIN</string>
+    <string name="commons__success">Success</string>
+    <string name="security__enter_pin_short">Enter PIN</string>
+    <string name="settings__sort_tokens">Sort tokens</string>
+    <string name="appleWatch__installation_info_title">2FAS Apple Watch app installation</string>
+    <string name="appleWatch__installation_first_step">Install 2FAS Auth via Watch app</string>
+    <string name="appleWatch__installation_first_step_link">Open Watch app</string>
+    <string name="appleWatch__installation_second_step">Ensure your iCloud Sync is enabled</string>
+    <string name="appleWatch__installation_second_step_link">Go to 2FAS Backup settings</string>
+    <string name="settings__apple_watch">Apple Watch</string>
 </resources>

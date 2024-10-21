@@ -1,5 +1,3 @@
-import org.jetbrains.kotlin.gradle.plugin.mpp.pm20.util.archivesName
-
 @Suppress("DSL_SCOPE_VIOLATION")
 plugins {
     alias(libs.plugins.twofasAndroidApplication)
@@ -19,10 +17,14 @@ android {
         applicationId = "at.anexia.authenticator"
         versionName = "2.0.0"
         versionCode = 20000
+    }
 
-        val versionCodeOffset = 20000
-
-        archivesName.set("AnxAuth-$versionName-${versionCode!! - versionCodeOffset}")
+    applicationVariants.all {
+        outputs.all {
+            val versionCodeOffset = 20000
+            val output = this as? com.android.build.gradle.internal.api.BaseVariantOutputImpl
+            output?.outputFileName = "AnxAuth-$versionName-${versionCode!! - versionCodeOffset}"
+        }
     }
 
     ksp {
