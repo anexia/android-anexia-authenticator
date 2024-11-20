@@ -30,9 +30,10 @@ internal class MainViewModel(
         }
 
         launchScoped {
+            // no intro should be shown
             val destination = when (sessionRepository.isOnboardingDisplayed()) {
                 true -> MainUiState.StartDestination.Home
-                false -> MainUiState.StartDestination.Onboarding
+                false -> MainUiState.StartDestination.Home
             }
 
             uiState.update { it.copy(startDestination = destination) }

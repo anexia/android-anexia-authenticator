@@ -15,7 +15,7 @@
     <string name="NSFaceIDUsageDescription">You can unlock the application using Face ID</string>
     <!-- MARK: - App -->
     <string name="app__name">Anexia Authenticator</string>
-    <string name="commons__2fas">2FA Authenticator (2FAS App)</string>
+    <string name="commons__2fas">Anexia Authenticator</string>
     <string name="commons__OK">OK</string>
     <string name="commons__add">Add</string>
     <!-- MARK: - Commons -->
@@ -34,7 +34,7 @@
     <!-- backup__icloud_has_been_disabled_by_user -->
     <string name="backup__icloud_disabled_title">iCloud has been disabled by the user</string>
     <!-- backup__turned_off_description_bold_part -->
-    <string name="backup__2fas_backup">2FAS Backup</string>
+    <string name="backup__2fas_backup">Anexia Authenticator Backup</string>
     <string name="commons__close">Close</string>
     <string name="commons__continue">Continue</string>
     <string name="commons__copy">Copy</string>
@@ -75,20 +75,20 @@
     <string name="fingerprint__use_pin_title">Use PIN this time</string>
     <!-- MARK: - Introduction -->
     <string name="introduction__page_1_title">You are awesome!</string>
-    <string name="introduction__page_1_content">Your phone has just become a private and secured key to your online services thanks to the 2FAS app - trusted by over 6 million users worldwide.</string>
+    <string name="introduction__page_1_content">Your phone has just become a private and secured key to your online services thanks to the Anexia Authenticator app - trusted by over 6 million users worldwide.</string>
     <string name="introduction__page_2_title">Simple</string>
-    <string name="introduction__page_2_content">Pair 2FAS with your online services. Activate two-factor security in seconds with your QR code.</string>
+    <string name="introduction__page_2_content">Pair Anexia Authenticator with your online services. Activate two-factor security in seconds with your QR code.</string>
     <string name="introduction__page_3_title">Private</string>
-    <string name="introduction__page_3_content">2FAS respects and protects your privacy. This app will never collect, process, or use any of your personal data.</string>
+    <string name="introduction__page_3_content">Anexia Authenticator respects and protects your privacy. This app will never collect, process, or use any of your personal data.</string>
     <string name="introduction__page_4_title">Secure</string>
     <string name="introduction__page_4_content_ios">Your tokens are stored offline via the device storage, so remember to back up your services! Use iCloud Sync and a PIN password to protect against unauthorized access and device damage.</string>
     <!-- introduction__start_using -->
-    <string name="introduction__title">Start using 2FAS</string>
+    <string name="introduction__title">Start using Anexia Authenticator</string>
     <string name="introduction__tos">Terms of service</string>
-    <string name="introduction__description_title">Pair your online service account with 2FAS or import your tokens</string>
+    <string name="introduction__description_title">Pair your online service account with Anexia Authenticator or import your tokens</string>
     <string name="introduction__pair_new_service">Pair new service</string>
     <!-- introduction__import_2fas -->
-    <string name="introduction__import_2fas_title">Import 2FAS backup file</string>
+    <string name="introduction__import_2fas_title">Import Anexia Authenticator backup file</string>
     <!-- introduction__import_ga -->
     <string name="introduction__import_google_authenticator">Import from Google Authenticator</string>
     <!-- introduction__not_sure -->
@@ -195,7 +195,7 @@
     <string name="tokens__brand_icon">Brand icon</string>
     <string name="tokens__label">Label</string>
     <!-- tokens__remove_the_service -->
-    <string name="tokens__remove_service_from_app">Remove this service from 2FAS app</string>
+    <string name="tokens__remove_service_from_app">Remove this service from Anexia Authenticator app</string>
     <!-- tokens__label_one_or_two -->
     <string name="tokens__label_characters_title">Label (1 or 2 characters):</string>
     <string name="tokens__pick_background_color">Pick background color:</string>
@@ -265,10 +265,10 @@
     <string name="tokens__request_icon_middle">or</string>
     <string name="tokens__request_icon_provider_title">Let the service provider know</string>
     <string name="tokens__request_icon_provider_description">You can use Social Media or email and share this text with them:</string>
-    <string name="tokens__request_icon_provider_message">Hey! I’m using the 2FAS app to log in to your service with 2FA. However, your icon is missing! You can submit your icon here: https://2fas.com/yb</string>
-    <string name="tokens__request_icon_provider_message_link">https://2fas.com/yb</string>
+    <string name="tokens__request_icon_provider_message">Hey! I’m using the Anexia Authenticator app to log in to your service with 2FA. However, your icon is missing!</string>
+    <string name="tokens__request_icon_provider_message_link"></string>
     <string name="tokens__request_icon_provider_footnote">Don’t forget to tag the company’s official account!</string>
-    <string name="tokens__order_icon_description">Can’t find a brand icon in the 2FAS app?</string>
+    <string name="tokens__order_icon_description">Can’t find a brand icon in the Anexia Authenticator app?</string>
     <string name="tokens__order_icon_link">Request a brand icon</string>
     <string name="tokens__order_icon_title">Request a brand icon</string>
     <string name="tokens__order_menu_title">Select the request method</string>
@@ -306,7 +306,7 @@
     <string name="backup__incorrect_secret">Couldn\'t backup tokens because \"%s\" secret contains invalid characters. Remove it from list and try again</string>
     <string name="backup__import">Import</string>
     <string name="backup__export">Export</string>
-    <string name="backup__backup_disabled_title">2FAS Backup will be disabled to protect its integrity</string>
+    <string name="backup__backup_disabled_title">Anexia Authenticator Backup will be disabled to protect its integrity</string>
     <string name="backup__error_while_exporting_file">Error while exporting the file</string>
     <string name="backup__import_completed_successfuly">Import completed successfuly</string>
     <!-- camera__video_device_in_use_by_another_app -->
@@ -315,10 +315,10 @@
     <string name="camera__camera_unavailable_title">The camera is unavailable because of system overload. Try rebooting the device</string>
     <string name="camera__cant_initialize_camera_general">Can\'t initialize the camera. Try rebooting the device</string>
     <string name="camera__cant_initialize_camera_split_view">Can\'t initialize camera in Split View mode. Open app in full screen and try again</string>
-    <string name="restore__how_to_restore">How to restore 2FAS app?</string>
+    <string name="restore__how_to_restore">How to restore Anexia Authenticator app?</string>
     <string name="restore__application_restoration">Application restoration</string>
     <!-- restore_if_you_forgotten -->
-    <string name="restore__reset_Pin_title">If you have forgotten the PIN or want to reset the 2FAS app, you have to reinstall the app.</string>
+    <string name="restore__reset_Pin_title">If you have forgotten the PIN or want to reset the Anexia Authenticator app, you have to reinstall the app.</string>
     <!-- restore_please_remember -->
     <string name="restore__backup_advice">Be advised that if you do not have a backup and reset the app, you will lose access to all your codes. And therefore, access to all your 2FA-secured accounts.</string>
     <!-- restore_if_you_have_backup -->
@@ -330,13 +330,13 @@
     <!-- backup__use_file_backup_for -->
     <string name="backup__file_backup_offline_title">Use File Backup for offline backup of your tokens.</string>
     <string name="backup__backup_removal">Backup removal</string>
-    <string name="backup__delete_2fas_backup">Delete 2FAS Backup</string>
-    <string name="backup__warning_introduction">Warning! If you delete 2FAS Backup, you will also erase all tokens from other devices synced with this account. To preserve the tokens on other devices, please ensure that you\'ve turned off the 2FAS Backup before the deletion.</string>
+    <string name="backup__delete_2fas_backup">Delete Anexia Authenticator Backup</string>
+    <string name="backup__warning_introduction">Warning! If you delete Anexia Authenticator Backup, you will also erase all tokens from other devices synced with this account. To preserve the tokens on other devices, please ensure that you\'ve turned off the Anexia Authenticator Backup before the deletion.</string>
     <!-- backup__i_want_to_delete -->
     <string name="backup__delete_title">I want to delete the Backup</string>
     <string name="backup__export_to_backup_file">Export backup to file</string>
     <!-- backup__you_can_import_exported_file -->
-    <string name="backup__import_file_title">You can import exported files on other devices with the 2FAS application</string>
+    <string name="backup__import_file_title">You can import exported files on other devices with the Anexia Authenticator application</string>
     <string name="backup__export_to_file">Export to file</string>
     <string name="backup__verify_pin">Verify PIN</string>
     <string name="backup__save_file">Save file</string>
@@ -408,26 +408,26 @@
     <string name="settings__pin_6_digits">6-digits code</string>
     <string name="settings__biometric_authentication">Biometric Authentication</string>
     <string name="settings__donations">Donations</string>
-    <string name="settings__donate_twofas">Donate to 2FAS</string>
+    <string name="settings__donate_twofas">Donate to Anexia Authenticator</string>
     <string name="new_version__new_version_title">New version</string>
-    <string name="new_version__new_version_message_ios">A new version of 2FAS is available on App Store. Update now!</string>
+    <string name="new_version__new_version_message_ios">A new version of Anexia Authenticator is available on App Store. Update now!</string>
     <string name="new_version__update_action">Update now</string>
     <!-- new_version__skip_action -->
     <string name="new_version__skip_title">Skip this version</string>
     <!-- new_version__later_action -->
     <string name="new_version__update_later">Update later</string>
     <string name="browser__browser_extension">Browser extension</string>
-    <string name="browser__info_title">2FAS Web Browser extension</string>
-    <string name="browser__info_description_first">Install the 2FAS browser extension on your desktop computer.</string>
-    <string name="browser__info_description_second">Pair it with your 2FAS app.</string>
+    <string name="browser__info_title">Anexia Authenticator Web Browser extension</string>
+    <string name="browser__info_description_first">Install the Anexia Authenticator browser extension on your desktop computer.</string>
+    <string name="browser__info_description_second">Pair it with your Anexia Authenticator app.</string>
     <string name="browser__more_info">More info:</string>
-    <string name="browser__more_info_link_title">2fas.com/be</string>
+    <string name="browser__more_info_link_title"></string>
     <string name="browser__pair_with_web_browser">Pair with web browser</string>
-    <string name="browser__more_info_link">https://www.2fas.com/be</string>
+    <string name="browser__more_info_link"></string>
     <string name="browser__pairing_successful_title">Pairing successful!</string>
-    <string name="browser__pairing_successful_description">2FAS will send you a Push Notification whenever you log in to your online services using this web browser. You will no longer need to re-type your tokens for each use.</string>
+    <string name="browser__pairing_successful_description">Anexia Authenticator will send you a Push Notification whenever you log in to your online services using this web browser. You will no longer need to re-type your tokens for each use.</string>
     <string name="browser__pairing_failed_title">Pairing failed :(</string>
-    <string name="browser__pairing_failed_description">This QR code wasn’t recognized, and 2FAS could not pair this device with the browser extension. Please try again.</string>
+    <string name="browser__pairing_failed_description">This QR code wasn’t recognized, and Anexia Authenticator could not pair this device with the browser extension. Please try again.</string>
     <!-- browser__pairing_already_paired_title -->
     <string name="browser__already_paired_title">Already paired!</string>
     <!-- browser__pairing_already_paired_description -->
@@ -441,7 +441,7 @@
     <string name="browser__this_device_name">Device nickname</string>
     <string name="browser__device_name">Device nickname</string>
     <string name="browser__name">Name</string>
-    <string name="browser__this_device_footer">This nickname will help you identify this device among other devices paired with the 2FAS browser extension</string>
+    <string name="browser__this_device_footer">This nickname will help you identify this device among other devices paired with the Anexia Authenticator browser extension</string>
     <string name="browser__browser_extension_settings">Browser Extensions settings</string>
     <string name="browser__unkown_name">&lt;UNKOWN_NAME&gt;</string>
     <string name="browser__request_source_description">%1$s requested a 2FA token for %2$s. Select the service to authorize and save with this domain.</string>
@@ -463,14 +463,14 @@
     <string name="browser__2fa_token_request_title">2FA Token Request</string>
     <string name="browser__2fa_token_request_content">Do you want to share the 2FA token for\u0020</string>
     <string name="notifications__no_notifications">No notifications</string>
-    <string name="CFBundleSpokenName">2 F A S</string>
-    <string name="commons__2fas_toolbar">2FAS</string>
+    <string name="CFBundleSpokenName">Anexia Authenticator</string>
+    <string name="commons__2fas_toolbar">Anexia Authenticator</string>
     <string name="backup__google_drive_not_available">Google Drive is not available</string>
     <string name="backup__google_drive_disabled_title">Google Drive has been disabled by the user</string>
     <string name="backup__update_required_to_import_title_2">You\'ll need a new version of the app to import the contents of this file. You can find the newest version in the Google Store</string>
     <string name="tokens__qr_code_leads_to_google_store">This QR Code takes you to the Google Store</string>
     <string name="introduction__page_4_content_android">Your tokens are stored offline via the device storage, so remember to back up your services! Use Google Drive Sync and PIN password to protect against unauthorized access and device damage.</string>
-    <string name="new_version__new_version_message_android">A new version of 2FAS is available on Google Store. Update now!</string>
+    <string name="new_version__new_version_message_android">A new version of Anexia Authenticator is available on Google Store. Update now!</string>
     <string name="security_error_no_match">PIN does not match! Please try again.</string>
     <string name="settings_developer_options">Developer Options</string>
     <string name="settings__external_import">Import tokens</string>
@@ -486,7 +486,7 @@
     <string name="gdrive_internet_title">Internet Connection Required</string>
     <string name="gdrive_internet_msg">In order to sync with Google, you need to enable an Internet connection.</string>
     <string name="gdrive_wipe_internet_msg">In order to revoke access to Google Drive, you need to enable the Internet connection.</string>
-    <string name="backup_explanation_msg">Automatically store and sync your backup file in the hidden folder on your Google Drive. This folder is only accessible to the 2FAS app.</string>
+    <string name="backup_explanation_msg">Automatically store and sync your backup file in the hidden folder on your Google Drive. This folder is only accessible to the Anexia Authenticator app.</string>
     <string name="backup_error_unknown">An error occurred during backup sync. Please restart the app after a couple of minutes and try again.</string>
     <string name="backup_error_encrypt_unknown">An error occurred during backup encryption. Please set your password again.</string>
     <string name="backup_error_decrypt_unknown">An error occurred during backup decryption. Please set your password again.</string>
@@ -502,7 +502,7 @@
     <string name="customization_edit_label">Edit label</string>
     <string name="groups_delete_msg">Are you sure you want to delete this group?</string>
     <string name="export_backup_title">Your backup file is ready for export</string>
-    <string name="export_backup_msg">Export this file to keep your 2FAS tokens securely backed up. You can import it later to this or other devices using the 2FAS app.</string>
+    <string name="export_backup_msg">Export this file to keep your Anexia Authenticator tokens securely backed up. You can import it later to this or other devices using the Anexia Authenticator app.</string>
     <string name="export_backup_pass">Export file without password\n(not recommended)</string>
     <string name="import_backup_msg2">The file will be synchronised with the app\'s service list.</string>
     <string name="backup_notice_later">Maybe Later</string>
@@ -517,12 +517,12 @@
     <string name="backup_settings_password_remove_subtitle">Remove the password for your Google Drive backup file.</string>
     <string name="backup_settings_account_title">Google account</string>
     <string name="backup_settings_sync_title">Last synchronization</string>
-    <string name="browser_extension_result_success_description">2FAS will send you PUSH notifications whenever you log in to your online services using this web browser. You will no longer need to re-type your tokens for each use.</string>
+    <string name="browser_extension_result_success_description">Anexia Authenticator will send you PUSH notifications whenever you log in to your online services using this web browser. You will no longer need to re-type your tokens for each use.</string>
     <string name="browser_extension_browser_dialog">Browser name</string>
     <string name="biometric_dialog_auth_title">Authenticate</string>
     <string name="biometric_dialog_auth_subtitle">Use your biometric credential</string>
     <string name="about_licenses">Open source licenses</string>
-    <string name="externalimport_description">You can import your tokens to 2FAS from different apps. Choose an app from the list and follow the instructions.</string>
+    <string name="externalimport_description">You can import your tokens to Anexia Authenticator from different apps. Choose an app from the list and follow the instructions.</string>
     <string name="externalimport_select_app">Select app</string>
     <string name="externalimport_google_authenticator">Google Authenticator</string>
     <string name="externalimport_aegis">Aegis</string>
@@ -538,7 +538,7 @@
     <string name="security__enter_your_new_pin">Please enter your new %s PIN</string>
     <string name="security__pin_error_incorrect">PIN incorrect! Please try again</string>
     <string name="settings__biometrics">Biometrics</string>
-    <string name="settings__support">2FAS Support</string>
+    <string name="settings__support">Anexia Authenticator Support</string>
     <string name="settings__developer">Developer Options</string>
     <string name="settings__option_fingerprint">Biometric Lock</string>
     <string name="settings__option_theme">Theme</string>
@@ -565,16 +565,16 @@
     <string name="tokens__show_service_key_setup_lock">Your Secret key is protected. Please add a PIN or Fingerprint lock to see it.</string>
     <string name="tokens__tokens_list_is_empty">Services list is empty</string>
     <string name="tokens__use_plus_button_to_add_tokens">Use the \"+\" button to add a new service</string>
-    <string name="tokens__you_will_not_be_able_to_sign_in_to_your">You will be unable to sign in to your %1$s account without this token as long as you have two-factor authentication for %2$s enabled.\n\nYou will be unable to restore this token from 2FAS trash.</string>
+    <string name="tokens__you_will_not_be_able_to_sign_in_to_your">You will be unable to sign in to your %1$s account without this token as long as you have two-factor authentication for %2$s enabled.\n\nYou will be unable to restore this token from Anexia Authenticator trash.</string>
     <string name="import_ga_success">Services successfully imported!</string>
     <!-- You need active Internet connection in order to sync your backup. Please turn on your network connection and try again. -->
     <string name="backup_error_network">You need an active Internet connection to sync your backup. Please turn on your network connection and try again.</string>
     <string name="update_app_title">Update app</string>
     <!-- Please update to the newest 2FAS version, to get all features and maintain high security level. -->
-    <string name="update_app_msg">Please update to the newest 2FAS version to get all features and maintain a high-security level.</string>
+    <string name="update_app_msg">Please update to the newest Anexia Authenticator version to get all features and maintain a high-security level.</string>
     <string name="delete_service_title">You are deleting</string>
     <!-- from your 2FAS service list.\n\nRemember, as long as you have second factor authentication turned on, you will not log in to %s account without this token. -->
-    <string name="delete_service_msg">from your 2FAS service list.\n\nRemember, as long as you have second-factor authentication turned on, you will not log in to %s account without this token.</string>
+    <string name="delete_service_msg">from your Anexia Authenticator service list.\n\nRemember, as long as you have second-factor authentication turned on, you will not log in to %s account without this token.</string>
     <string name="delete_service_cta">Delete</string>
     <string name="export_backup_cta">Export</string>
     <string name="export_backup_share_cta">Share</string>
@@ -584,8 +584,8 @@
     <string name="widgets_warning_msg">Tokens visible in the widget are not protected by your PIN code.\n\nAre you sure you want to display your tokens in the widget?</string>
     <string name="widgets_warning_title">WARNING!</string>
     <string name="widgets_warning_cta">Yes, I am sure</string>
-    <string name="backup_notice_title">2FAS Backup</string>
-    <string name="backup_notice_msg">Enable 2FAS Backup. In the event of a reset or loss of your phone, you will be able to restore all your tokens.</string>
+    <string name="backup_notice_title">Anexia Authenticator Backup</string>
+    <string name="backup_notice_msg">Enable Anexia Authenticator Backup. In the event of a reset or loss of your phone, you will be able to restore all your tokens.</string>
     <string name="brand_empty_msg">Sorry, brand not found</string>
     <!-- Select which services will be visible on widget: -->
     <string name="widgets_select_msg">Select which services will be visible on the widget:</string>
@@ -595,7 +595,7 @@
     <string name="backup_settings_delete_title">Delete backup file from Google Drive</string>
     <!-- If you delete this file from your Google Drive, synchronization on all synchronized devices will be disabled and tokens will remain only on this and other devices via local storage. -->
     <string name="backup_settings_delete_subtitle">If you delete this file from your Google Drive, synchronization on all synchronized devices will be disabled, and tokens will remain only on this and other devices via local storage.</string>
-    <string name="browser__result_error_browser_paired">Your 2FAS app is already paired with this browser.</string>
+    <string name="browser__result_error_browser_paired">Your Anexia Authenticator app is already paired with this browser.</string>
     <!-- Scan QR code again -->
     <string name="browser__result_error_cta">Scan the QR code again</string>
     <string name="browser__scan_error_dialog_title">Error</string>
@@ -617,7 +617,7 @@
     <string name="extension__dismiss">Dismiss</string>
     <string name="extension__request_sent">Request sent</string>
     <string name="extension__send_question_title">Send token?</string>
-    <string name="extension__send_question_content">%1$s requested 2FAS token for %2$s</string>
+    <string name="extension__send_question_content">%1$s requested Anexia Authenticator token for %2$s</string>
     <string name="extension__error_while_sending">Error while sending token</string>
     <string name="extension__not_paired_title">This website is not paired</string>
     <string name="extension__not_paired_content">Open the app and select a service for this domain</string>
@@ -625,7 +625,7 @@
     <string name="extension__error_no_internet">There\'s a connection problem</string>
     <string name="extension__try_again">Please try again</string>
     <string name="extension__error">Error</string>
-    <string name="extension__error_no_services">For Browser Extension to work, please add services to the 2FAS app</string>
+    <string name="extension__error_no_services">For Browser Extension to work, please add services to the Anexia Authenticator app</string>
     <string name="extension__approve">Approve</string>
     <string name="extension__deny">Deny</string>
     <string name="settings__turn_pin_code_to_enable_faceid">Turn on the PIN code and Face ID authorization to prevent unauthorized access to your tokens on this device.</string>
@@ -642,7 +642,7 @@
     <string name="settings__send_logs_description_link">Code provided by support team was autofilled. Send logs?</string>
     <string name="settings__send_logs_description_edit">Please enter or paste code provided by our support team</string>
     <string name="settings__send_logs">Send logs</string>
-    <string name="settings__recommendation">Check out this awesome two-factor authentication app from 2FAS: https://2fas.com</string>
+    <string name="settings__recommendation">Check out this awesome two-factor authentication app from Anexia Authenticator</string>
     <string name="settings__acknowledgements">Acknowledgements</string>
     <string name="introduction__import_external_app">Import from external app</string>
     <plurals name="past_duration_seconds">
@@ -679,7 +679,7 @@
     <string name="backup__local_file_title">Local file</string>
     <string name="backup__drive_title">Google Drive sync</string>
     <string name="backup__delete_file_title">Delete your backup file from Google Drive?</string>
-    <string name="backup__delete_file_msg">Google Sync will be disabled. Your tokens will remain locally, but the 2FAS app will be logged out from your Google Account on this and your synced other devices.</string>
+    <string name="backup__delete_file_msg">Google Sync will be disabled. Your tokens will remain locally, but the Anexia Authenticator app will be logged out from your Google Account on this and your synced other devices.</string>
     <string name="backup__sync_status_waiting">Waiting for sync…</string>
     <string name="backup__sync_status_progress">Syncing…</string>
     <string name="import_backup_msg1_encrypted">You are going to import an encrypted backup file.</string>
@@ -719,7 +719,7 @@
     <string name="errors__input_too_long">Input is too long. Limit: %d</string>
     <string name="commons__best_match">Best match</string>
     <string name="settings__enable_crashlytics">Send anonymous crash reports</string>
-    <string name="settings__enable_crashlytics_description">Send anonymous crash reports to help 2FAS identify and solve issues in the app (app restart required).</string>
+    <string name="settings__enable_crashlytics_description">Send anonymous crash reports to help Anexia Authenticator identify and solve issues in the app (app restart required).</string>
     <string name="tokens__manage_list">Manage list</string>
     <string name="settings__appearance">Appearance</string>
     <string name="settings__show_next_token_desc">Show next token when current one is about to expire.</string>
@@ -739,14 +739,14 @@
     <string name="externalimport__info_google_authenticator_title">Import tokens from Google Authenticator</string>
     <!-- Counter eg.: "25s" -->
     <string name="time_unit_seconds_short">s</string>
-    <string name="tokens__add_title">Pair the service with 2FAS</string>
+    <string name="tokens__add_title">Pair the service with Anexia Authenticator</string>
     <string name="tokens__add_description">Point your camera at the screen to capture the QR code.</string>
     <string name="tokens__add_other_methods">Other methods</string>
     <string name="tokens__add_enter_manual">Enter the secret key manually</string>
     <string name="tokens__add_from_gallery">Upload screenshot with the QR code</string>
     <string name="tokens__add_success_title">Almost done!</string>
     <string name="tokens__add_success_description">To finish pairing the service, you need to retype this token.</string>
-    <string name="tokens__add_manual_title">Pair the service with 2FAS</string>
+    <string name="tokens__add_manual_title">Pair the service with Anexia Authenticator</string>
     <string name="tokens__add_manual_description">Type in the service name and secret key.</string>
     <string name="tokens__add_manual_service_name">Service name</string>
     <string name="tokens__add_manual_service_key">Secret Key</string>
@@ -784,7 +784,7 @@
     <string name="tokens__last_pass_import_subtitle">This QR code allows importing tokens from LastPass</string>
     <string name="tokens__add_with_guide">Guide me</string>
     <string name="guides__select_title">Browse services</string>
-    <string name="guides__select_description">Select service to pair with the 2FAS app</string>
+    <string name="guides__select_description">Select service to pair with the Anexia Authenticator app</string>
     <string name="guides__select_provide_guide">Do you want to provide 2FA guides for your service?</string>
     <string name="guides__select_provide_guide_cta">Apply now</string>
     <string name="color__pink">Pink</string>
@@ -796,8 +796,8 @@
     <string name="commons__text_short_title">The provided text is too short (min. %d chars)</string>
     <!-- This key should contain a part of the tokens__add_manual_advanced_description which is written in bold in the app -->
     <string name="tokens__add_manual_advanced_description_highlight">is not recommended</string>
-    <string name="guides__guide_init_title">2FAS guide</string>
-    <string name="guides__guide_title">2FAS for %s</string>
+    <string name="guides__guide_init_title">Anexia Authenticator guide</string>
+    <string name="guides__guide_title">Anexia Authenticator for %s</string>
     <string name="guides__guide_universal_title">Universal 2FA Guide</string>
     <string name="browser__save_choice">Save my choice</string>
     <string name="externalimport_andotp">andOTP</string>
@@ -812,7 +812,7 @@
     <string name="commons__pair">Pair</string>
     <string name="introduction__backup_icloud_title">Secure sync and backup</string>
     <!-- "**...**" means thar part between those asterisks will be in bold. -->
-    <string name="introduction__backup_icloud_description">2FAS uses iCloud for secure backup and sync of your 2FA tokens. The **encrypted** backup data is stored in iCloud, accessible **only by the 2FAS app**. Additionally, this feature aids with token **recovery and syncing** across iOS devices.\n\nIt\'s enabled by default and can be disabled at any time in the app\'s backup settings.</string>
+    <string name="introduction__backup_icloud_description">Anexia Authenticator uses iCloud for secure backup and sync of your 2FA tokens. The **encrypted** backup data is stored in iCloud, accessible **only by the Anexia Authenticator app**. Additionally, this feature aids with token **recovery and syncing** across iOS devices.\n\nIt\'s enabled by default and can be disabled at any time in the app\'s backup settings.</string>
     <string name="introduction__backup_icloud_cta">Learn more about backup</string>
     <string name="backup__enter_password_google_drive_msg1">It looks like your Google Drive backup file is password-protected. Type in the correct password to proceed. If you’d like to wipe your Google Drive backup file,</string>
     <string name="backup__enter_password_google_drive_msg2">tap here to see how</string>
@@ -821,23 +821,23 @@
     <string name="settings__manage_tokens">Manage tokens</string>
     <string name="settings__info_footer">Your support allows us to develop new features and improvements. Thank you!</string>
     <string name="settings__trash_option">Retrieve from trash</string>
-    <string name="periodic_notification_tips">Glad you\'re with us at 2FAS! 🌟 Take a moment to discover helpful Tips &amp; Tricks 🛠️ in the app for enhanced security 🔒.</string>
-    <string name="periodic_notification_backup">Enable 2FAS Backup &amp; Sync to ensure you never get locked out, even if you lose your phone - your peace of mind in one tap! 🔐📱</string>
-    <string name="periodic_notification_browser_extension">Speed up your logins with the 2FAS Browser Extension! 🚀 Download now for a faster, more convenient authentication. 🌐✨</string>
-    <string name="periodic_notification_donate">We\'re grateful for your support of 2FAS! 🌟 If you find our app helpful, consider making a donation to help us keep your digital world secure. Every bit helps! 🙏💙</string>
+    <string name="periodic_notification_tips">Glad you\'re with us at Anexia Authenticator! 🌟 Take a moment to discover helpful Tips &amp; Tricks 🛠️ in the app for enhanced security 🔒.</string>
+    <string name="periodic_notification_backup">Enable Anexia Authenticator Backup &amp; Sync to ensure you never get locked out, even if you lose your phone - your peace of mind in one tap! 🔐📱</string>
+    <string name="periodic_notification_browser_extension">Speed up your logins with the Anexia Authenticator Browser Extension! 🚀 Download now for a faster, more convenient authentication. 🌐✨</string>
+    <string name="periodic_notification_donate">We\'re grateful for your support of Anexia Authenticator! 🌟 If you find our app helpful, consider making a donation to help us keep your digital world secure. Every bit helps! 🙏💙</string>
     <!-- DO NOT TRANSLATE! -->
     <string name="tokens__steam">STEAM</string>
     <string name="widget__placeholder">Placeholder</string>
     <string name="widget__size_not_supported">This size is not supported yet</string>
     <string name="widget__settings_description">Select which Services you would like to display on the Widget. If no Services are available, make sure that you\'ve enabled Widgets in app Settings section</string>
     <string name="widget__service_icon">Service icon</string>
-    <string name="widget__not_enabled">Widget functionality is not enabled in 2FAS Settings section</string>
-    <string name="widget__not_enabled_no_services">Widget functionality is not enabled in 2FAS Settings section and there are no services in the app available for selection</string>
+    <string name="widget__not_enabled">Widget functionality is not enabled in Anexia Authenticator Settings section</string>
+    <string name="widget__not_enabled_no_services">Widget functionality is not enabled in Anexia Authenticator Settings section and there are no services in the app available for selection</string>
     <string name="widget__no_services">There are no services in the app available for selection</string>
-    <string name="widget__select_service_intent_description">Select Service you want to show on your 2FAS Widget</string>
+    <string name="widget__select_service_intent_description">Select Service you want to show on your Anexia Authenticator Widget</string>
     <string name="widget__my_secured_account">My secured account</string>
     <string name="widget__token">Token</string>
-    <string name="watch__intro">2FAS watchOS app is a companion app for the 2FAS iOS application. It will present services backed up using iCloud sync.\n\nFor quick access, add them to Favorite Services.\n\nPlease remember to donate so we can further improve the 2FAS platform!</string>
+    <string name="watch__intro">Anexia Authenticator watchOS app is a companion app for the Anexia Authenticator iOS application. It will present services backed up using iCloud sync.\n\nFor quick access, add them to Favorite Services.\n\nPlease remember to donate so we can further improve the Anexia Authenticator platform!</string>
     <string name="tokens__hotp_not_supported">HOTP services aren\'t supported yet</string>
     <string name="tokens__favorite_services">Favorite Services</string>
     <string name="security__enter_new_pin_short">Enter new PIN</string>
@@ -845,10 +845,10 @@
     <string name="commons__success">Success</string>
     <string name="security__enter_pin_short">Enter PIN</string>
     <string name="settings__sort_tokens">Sort tokens</string>
-    <string name="appleWatch__installation_info_title">2FAS Apple Watch app installation</string>
-    <string name="appleWatch__installation_first_step">Install 2FAS Auth via Watch app</string>
+    <string name="appleWatch__installation_info_title">Anexia Authenticator Apple Watch app installation</string>
+    <string name="appleWatch__installation_first_step">Install Anexia Authenticator Auth via Watch app</string>
     <string name="appleWatch__installation_first_step_link">Open Watch app</string>
     <string name="appleWatch__installation_second_step">Ensure your iCloud Sync is enabled</string>
-    <string name="appleWatch__installation_second_step_link">Go to 2FAS Backup settings</string>
+    <string name="appleWatch__installation_second_step_link">Go to Anexia Authenticator Backup settings</string>
     <string name="settings__apple_watch">Apple Watch</string>
 </resources>

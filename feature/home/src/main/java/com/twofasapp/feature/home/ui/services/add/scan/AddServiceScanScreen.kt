@@ -155,10 +155,11 @@ internal fun AddServiceScanScreen(
             )
         }
 
+        /*
         SettingsLink(
             title = TwLocale.strings.addWithGuide,
             icon = TwIcons.Guide
-        ) { openGuides() }
+        ) { openGuides() } */
 
         Spacer(modifier = Modifier.height(16.dp))
     }

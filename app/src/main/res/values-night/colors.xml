@@ -3,6 +3,6 @@
     <color name="surface">#1A1B21</color>
     <color name="surfaceVariant">#232323</color>
     <color name="onSurface">#FFFFFF</color>
-    <color name="windowBackground">#101116</color>
-    <color name="statusbar">#101116</color>
+    <color name="windowBackground">#2D2D2D</color>
+    <color name="statusbar">#2D2D2D</color>
 </resources>
