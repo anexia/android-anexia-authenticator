@@ -178,7 +178,7 @@ internal class GoogleDriveImpl(
             GsonFactory(),
             googleAccountCredential
         )
-            .setApplicationName("2FAS")
+            .setApplicationName("Anexia Authenticator")
             .build()
     }
 }
