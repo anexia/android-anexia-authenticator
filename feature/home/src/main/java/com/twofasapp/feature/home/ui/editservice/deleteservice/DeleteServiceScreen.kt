@@ -28,8 +28,6 @@ import com.twofasapp.designsystem.common.TwTextButton
 import com.twofasapp.designsystem.common.TwTopAppBar
 import com.twofasapp.designsystem.ktx.LocalBackDispatcher
 import com.twofasapp.locale.R
-import com.twofasapp.feature.home.ui.editservice.EditServiceUiEvent
-import com.twofasapp.feature.home.ui.editservice.EditServiceViewModel
 import kotlinx.coroutines.launch
 
 @Composable
@@ -71,7 +69,7 @@ internal fun DeleteServiceScreen(
                 verticalArrangement = Arrangement.Center
             ) {
                 Image(
-                    painter = painterResource(id = com.twofasapp.designsystem.R.drawable.illustration_delete_confirm),
+                    painter = painterResource(id = com.twofasapp.designsystem.R.drawable.illustration_delete_alert),
                     contentDescription = null,
                     modifier = Modifier.height(150.dp)
                 )

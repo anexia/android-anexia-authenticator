@@ -76,7 +76,7 @@ private fun ScreenContent(
                 }
 
                 item {
-                    SettingsLink(title = TwLocale.strings.aboutPrivacyPolicy, icon = TwIcons.LockOpen, external = true) {
+                    SettingsLink(title = TwLocale.strings.aboutPrivacyPolicy, icon = TwIcons.PrivacyPolicy, external = true) {
                         uriHandler.openSafely(TwLocale.links.privacyPolicy, activity)
                     }
                 }
@@ -89,26 +89,12 @@ private fun ScreenContent(
 
                 item { SettingsDivider() }
 
-                item { SettingsHeader(title = TwLocale.strings.aboutSendCrashes) }
-
-                item {
-                    SettingsSwitch(
-                        title = TwLocale.strings.settingsSendCrashes,
-                        subtitle = TwLocale.strings.settingsSendCrashesBody,
-                        icon = TwIcons.Settings,
-                        checked = uiState.appSettings.sendCrashLogs,
-                        onCheckedChange = { onSendCrashLogsToggle() }
-                    )
-                }
-
-                item { SettingsDivider() }
-
                 item { SettingsHeader(title = TwLocale.strings.aboutSocialMedia) }
 
                 item {
                     SettingsLink(
                         title = TwLocale.strings.aboutSocialInstagram,
-                        image = painterResource(id = com.twofasapp.designsystem.R.drawable.ic_youtube),
+                        image = painterResource(id = com.twofasapp.designsystem.R.drawable.ic_instagram),
                         external = true
                     ) {
                         uriHandler.openSafely(TwLocale.links.instagram, activity)

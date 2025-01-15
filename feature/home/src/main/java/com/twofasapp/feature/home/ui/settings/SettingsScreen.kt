@@ -76,7 +76,7 @@ private fun SettingsScreen(
             }
 
             item {
-                SettingsLink(title = TwLocale.strings.settingsAppearance, icon = TwIcons.Eye) {
+                SettingsLink(title = TwLocale.strings.settingsAppearance, icon = TwIcons.Appearance) {
                     listener.openAppSettings()
                 }
             }
@@ -84,12 +84,6 @@ private fun SettingsScreen(
             item {
                 SettingsLink(title = TwLocale.strings.settingsExternalImport, icon = TwIcons.Download) {
                     listener.openExternalImport()
-                }
-            }
-
-            item {
-                SettingsLink(title = TwLocale.strings.settingsBrowserExt, icon = TwIcons.Extension) {
-                    listener.openBrowserExt()
                 }
             }
 
@@ -117,12 +111,12 @@ private fun SettingsScreen(
                     horizontalArrangement = Arrangement.spacedBy(14.dp, Alignment.CenterHorizontally),
                 ) {
                     Image(
-                        painter = painterResource(id = com.twofasapp.designsystem.R.drawable.ic_youtube),
+                        painter = painterResource(id = com.twofasapp.designsystem.R.drawable.ic_facebook),
                         contentDescription = null,
                         modifier = Modifier
                             .size(52.dp)
                             .clip(CircleShape)
-                            .clickable { uriHandler.openSafely(TwLocale.links.instagram, activity) }
+                            .clickable { uriHandler.openSafely(TwLocale.links.facebook, activity) }
                             .padding(14.dp),
                     )
                     Image(
@@ -143,14 +137,13 @@ private fun SettingsScreen(
                             .clickable { uriHandler.openSafely(TwLocale.links.twitter, activity) }
                             .padding(14.dp),
                     )
-                    Icon(
-                        painter = painterResource(id = com.twofasapp.designsystem.R.drawable.ic_facebook),
+                    Image(
+                        painter = painterResource(id = com.twofasapp.designsystem.R.drawable.ic_instagram),
                         contentDescription = null,
-                        tint = TwTheme.color.onSurfacePrimary,
                         modifier = Modifier
                             .size(52.dp)
                             .clip(CircleShape)
-                            .clickable { uriHandler.openSafely(TwLocale.links.facebook, activity) }
+                            .clickable { uriHandler.openSafely(TwLocale.links.instagram, activity) }
                             .padding(14.dp),
                     )
                 }

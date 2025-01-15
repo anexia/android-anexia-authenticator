@@ -13,13 +13,13 @@ private val bottomNavItems
         BottomNavItem(
             title = TwLocale.strings.bottomBarTokens,
             icon = TwIcons.Home,
-            iconSelected = TwIcons.HomeFilled,
+            iconSelected = TwIcons.Home,
             route = Screen.Services.route,
         ),
         BottomNavItem(
             title = TwLocale.strings.bottomBarSettings,
             icon = TwIcons.Settings,
-            iconSelected = TwIcons.SettingsFilled,
+            iconSelected = TwIcons.Settings,
             route = Screen.Settings.route,
         ),
     )

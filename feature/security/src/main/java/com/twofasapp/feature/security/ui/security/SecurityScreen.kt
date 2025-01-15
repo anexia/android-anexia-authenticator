@@ -75,7 +75,7 @@ internal fun SecurityScreen(
                     SettingsSwitch(
                         title = stringResource(id = R.string.settings__option_fingerprint),
                         subtitle = stringResource(id = R.string.settings__option_fingerprint_description),
-                        icon = TwIcons.Fingerprint,
+                        icon = TwIcons.BiometricLock,
                         checked = false,
                         enabled = false,
                         onCheckedChange = { isChecked -> }

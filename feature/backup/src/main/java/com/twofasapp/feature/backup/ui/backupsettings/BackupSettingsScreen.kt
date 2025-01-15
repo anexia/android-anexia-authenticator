@@ -177,7 +177,7 @@ private fun BackupSettingsScreenContent(
         if (showConfirmDeleteDialog) {
             RichConfirmDialog(
                 onDismissRequest = { showConfirmDeleteDialog = false },
-                image = painterResource(id = R.drawable.illustration_delete_confirm),
+                image = painterResource(id = R.drawable.illustration_delete_alert),
                 title = strings.backupDeleteConfirmTitle,
                 body = strings.backupDeleteConfirmMsg,
                 positive = strings.commonDelete,
