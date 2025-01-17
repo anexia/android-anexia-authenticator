@@ -130,7 +130,7 @@ private fun ScreenContent(
                 SettingsSwitch(
                     title = TwLocale.strings.settingsHideCodes,
                     subtitle = TwLocale.strings.settingsHideCodesBody,
-                    icon = TwIcons.Eye,
+                    icon = TwIcons.EyeSlash,
                     checked = uiState.appSettings.hideCodes,
                     onCheckedChange = { onHideCodesToggle() },
                 )

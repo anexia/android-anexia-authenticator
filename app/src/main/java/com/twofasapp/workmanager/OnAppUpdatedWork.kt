@@ -8,6 +8,7 @@ import com.twofasapp.common.environment.AppBuild
 import com.twofasapp.migration.ClearObsoletePrefs
 import com.twofasapp.migration.MigrateBoxToRoom
 import com.twofasapp.migration.MigratePin
+import com.twofasapp.migration.MigrateRealmToRoom
 import com.twofasapp.migration.MigrateUnknownServices
 import com.twofasapp.prefs.usecase.CurrentAppVersionPreference
 import kotlinx.coroutines.withContext
@@ -27,6 +28,7 @@ class OnAppUpdatedWork(
     private val migratePin: MigratePin by inject()
     private val migrateUnknownServices: MigrateUnknownServices by inject()
     private val migrateBoxToRoom: MigrateBoxToRoom by inject()
+    private val migrateRealmToRoom: MigrateRealmToRoom by inject()
 
     override suspend fun doWork(): Result {
         return withContext(dispatchers.io) {
@@ -43,6 +45,9 @@ class OnAppUpdatedWork(
 
                 Timber.d("Migrate: Box to Room")
                 migrateBoxToRoom.invoke()
+
+                Timber.d("Migrate: Realm to Room")
+                migrateRealmToRoom.invoke()
 
                 Timber.d("Migrate: Unknown services")
                 migrateUnknownServices.invoke()

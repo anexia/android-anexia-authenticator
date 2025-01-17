@@ -12,6 +12,7 @@ import com.twofasapp.data.services.remote.CloudSyncWorkDispatcher
 import com.twofasapp.di.Modules
 import com.twofasapp.parsers.SupportedServices
 import com.twofasapp.prefs.usecase.SendCrashLogsPreference
+import io.realm.Realm
 import net.sqlcipher.database.SQLiteDatabase
 import org.koin.android.ext.android.inject
 import org.koin.android.ext.koin.androidContext

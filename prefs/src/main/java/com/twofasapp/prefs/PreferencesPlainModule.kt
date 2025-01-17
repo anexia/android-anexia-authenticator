@@ -6,6 +6,7 @@ import com.twofasapp.prefs.usecase.CurrentAppVersionPreference
 import com.twofasapp.prefs.usecase.FirstCodeAddedPreference
 import com.twofasapp.prefs.usecase.GroupsPreference
 import com.twofasapp.prefs.usecase.LockMethodPreference
+import com.twofasapp.prefs.usecase.MigratedRealmToRoomPreference
 import com.twofasapp.prefs.usecase.MigratedToRoomPreference
 import com.twofasapp.prefs.usecase.PinCodePreference
 import com.twofasapp.prefs.usecase.RateAppStatusPreference
@@ -29,6 +30,7 @@ class PreferencesPlainModule : KoinModule {
         single { RateAppStatusPreference(get<PlainPreferences>()) }
         single { FirstCodeAddedPreference(get<PlainPreferences>()) }
         single { MigratedToRoomPreference(get<PlainPreferences>()) }
+        single { MigratedRealmToRoomPreference(get<PlainPreferences>()) }
         single { RemoteBackupStatusPreference(get<PlainPreferences>()) }
         single { ServicesOrderPreference(get<PlainPreferences>()) }
         single { GroupsPreference(get<PlainPreferences>()) }

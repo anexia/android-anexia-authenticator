@@ -104,6 +104,7 @@ dependencies {
         exclude("org.apache.httpcomponents", "guava-jdk5")
         exclude("com.google.http-client", "google-http-client")
     }
+    implementation(libs.realm.gradle.plugin)
 
     // ObjectBox - legacy
     debugImplementation("io.objectbox:objectbox-android-objectbrowser:2.9.1")

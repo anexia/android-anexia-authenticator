@@ -19,6 +19,7 @@ import com.twofasapp.feature.security.di.SecurityModule
 import com.twofasapp.feature.startup.di.StartupModule
 import com.twofasapp.feature.trash.di.TrashModule
 import com.twofasapp.feature.widget.di.WidgetModule
+import com.twofasapp.migration.MigrateRealmToRoom
 import com.twofasapp.network.di.NetworkModule
 import com.twofasapp.prefs.PreferencesEncryptedModule
 import com.twofasapp.prefs.PreferencesPlainModule

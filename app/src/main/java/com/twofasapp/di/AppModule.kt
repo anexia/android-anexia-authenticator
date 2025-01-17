@@ -16,6 +16,7 @@ import com.twofasapp.prefs.ScopedNavigator
 import com.twofasapp.prefs.model.CheckLockStatus
 import com.twofasapp.time.TimeProviderImpl
 import com.twofasapp.migration.MigrateBoxToRoom
+import com.twofasapp.migration.MigrateRealmToRoom
 import kotlinx.serialization.json.Json
 import org.koin.android.ext.koin.androidContext
 import org.koin.core.module.dsl.bind
@@ -43,6 +44,7 @@ class AppModule : KoinModule {
         single { AuthTracker(Provider { get() }) }
 
         singleOf(::MigrateBoxToRoom)
+        single { MigrateRealmToRoom( get(), get(), get(), get()) }
 
         singleOf(::ShowBrowserExtRequestNotificationImpl) { bind<ShowBrowserExtRequestNotification>() }
 

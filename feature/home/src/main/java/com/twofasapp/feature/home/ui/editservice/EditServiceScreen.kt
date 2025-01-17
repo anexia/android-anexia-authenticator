@@ -41,6 +41,7 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.platform.LocalContext
+import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.input.KeyboardCapitalization
@@ -49,6 +50,7 @@ import androidx.compose.ui.text.input.PasswordVisualTransformation
 import androidx.compose.ui.text.input.VisualTransformation
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
+import androidx.core.content.res.ResourcesCompat
 import com.twofasapp.common.domain.Service
 import com.twofasapp.designsystem.TwIcons
 import com.twofasapp.designsystem.TwTheme
@@ -373,7 +375,7 @@ fun IconSelector(
                 }
             }) {
             Image(
-                bitmap = serviceIconBitmap(iconCollectionId = service.iconCollectionId),
+                painter = painterResource(id = com.twofasapp.designsystem.R.drawable.logo_2fas),
                 contentDescription = null,
                 modifier = Modifier
                     .size(40.dp)

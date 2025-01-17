@@ -14,9 +14,11 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
+import com.twofasapp.designsystem.R
 import com.twofasapp.designsystem.TwTheme
 import com.twofasapp.designsystem.ktx.assetAsBitmap
 import com.twofasapp.designsystem.service.ServiceImageType
@@ -36,7 +38,7 @@ internal fun ServiceImage(
         when (type) {
             ServiceImageType.Icon -> {
                 Image(
-                    bitmap = assetAsBitmap(if (TwTheme.isDark) iconDark else iconLight),
+                    painter = painterResource(R.drawable.logo_2fas),
                     contentDescription = null,
                     modifier = Modifier.size(dimens.imageSize)
                 )

@@ -4,9 +4,9 @@ buildscript {
         classpath("org.jetbrains.kotlin:kotlin-serialization:${libs.versions.kotlin.get()}")
         classpath("com.google.gms:google-services:4.4.0")
         classpath("com.google.firebase:firebase-crashlytics-gradle:2.9.9")
+        classpath (libs.realm.gradle.plugin)
     }
 }
-
 @Suppress("DSL_SCOPE_VIOLATION")
 plugins {
     alias(libs.plugins.agpApplication) apply false

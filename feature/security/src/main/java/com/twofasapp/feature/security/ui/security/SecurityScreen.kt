@@ -149,7 +149,7 @@ internal fun SecurityScreen(
                 item {
                     SettingsLink(
                         title = stringResource(id = R.string.settings__block_for),
-                        icon = TwIcons.Time,
+                        icon = TwIcons.Lock,
                         subtitleGravity = com.twofasapp.designsystem.settings.SubtitleGravity.End,
                         subtitle = stringResource(id = uiState.pinTimeout.label),
                         enabled = uiState.pinTrials != PinTrials.NoLimit,
@@ -171,7 +171,7 @@ internal fun SecurityScreen(
                 item {
                     SettingsSwitch(
                         title = stringResource(id = R.string.settings__option_fingerprint),
-                        icon = TwIcons.Fingerprint,
+                        icon = TwIcons.BiometricLock,
                         checked = uiState.lockMethod == LockMethod.Biometrics,
                         onCheckedChange = { isChecked ->
                             if (isChecked) {
