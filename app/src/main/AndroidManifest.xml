@@ -80,7 +80,8 @@
 
         <receiver
             android:name="com.twofasapp.widgets.WidgetProvider"
-            android:exported="true">
+            android:exported="true"
+            android:enabled="false">
             <intent-filter>
                 <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
             </intent-filter>

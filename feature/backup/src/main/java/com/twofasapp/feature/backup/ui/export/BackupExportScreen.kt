@@ -243,13 +243,13 @@ private fun Context.showSharePicker(
     startActivity(
         Intent.createChooser(
             shareIntent,
-            "2FAS Backup File",
+            "Anexia Authenticator Backup File",
         )
     )
 }
 
 private fun generateFilename() =
-    "2fas-backup-${LocalDateTime.now().format(DateTimeFormatter.ofPattern("yyyyMMddHHmmss"))}.2fas"
+    "anexia-authenticator-backup-${LocalDateTime.now().format(DateTimeFormatter.ofPattern("yyyyMMddHHmmss"))}.2fas"
 
 private enum class ExportMethod {
     Share, Download

@@ -57,27 +57,6 @@ public class Account extends RealmObject {
         return null;
     }
 
-    public static void writeToRealm(Account account) {
-        if (account != null) {
-            Realm realm = Realm.getDefaultInstance();
-            realm.beginTransaction();
-            realm.copyToRealm(account);
-            realm.commitTransaction();
-        }
-    }
-
-    public static void deleteFromRealm(Account account) {
-        if (account != null) {
-            Realm realm = Realm.getDefaultInstance();
-            realm.beginTransaction();
-            Account result = realm.where(Account.class).equalTo("id", account.getId()).findFirst();
-            if(result != null) {
-                result.deleteFromRealm();
-            }
-            realm.commitTransaction();
-        }
-    }
-
     public String getId() {
         return id;
     }
