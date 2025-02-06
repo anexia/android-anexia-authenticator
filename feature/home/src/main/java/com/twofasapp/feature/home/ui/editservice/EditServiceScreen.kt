@@ -217,13 +217,14 @@ internal fun EditServiceScreen(
                     }
                 }
 
+                /*
                 listItem(EditServiceListItem.ChangeBrand) {
                     SettingsLink(
                         title = stringResource(R.string.customization_change_brand),
                         enabled = isBrandSelected,
                         onClick = { onChangeBrandClick() },
                     )
-                }
+                }*/
 
                 listItem(EditServiceListItem.EditLabel) {
                     SettingsLink(
@@ -293,6 +294,7 @@ internal fun EditServiceScreen(
                     }
                 }
 
+                /*
                 listItem(EditServiceListItem.HeaderOther) {
                     SettingsDivider()
                     SettingsHeader(title = stringResource(R.string.tokens__add_manual_other))
@@ -301,7 +303,7 @@ internal fun EditServiceScreen(
                     SettingsLink(title = stringResource(R.string.browser__browser_extension),
                         enabled = service.assignedDomains.isNotEmpty(),
                         onClick = { onDomainAssignmentClick() })
-                }
+                } */
 
                 listItem(EditServiceListItem.Delete) {
                     SettingsDivider()

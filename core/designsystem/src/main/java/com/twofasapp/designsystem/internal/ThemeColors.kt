@@ -31,9 +31,8 @@ abstract class ThemeColors {
     val accentIndigo: Color = Color(0xFF5E5CE6)
     val accentPurple: Color = Color(0xFF8C49DE)
     val accentTurquoise: Color = Color(0xFF2FCFBC)
-    val accentGreen: Color = Color(0xFF03BF38)
-    val accentRed: Color
-        get() = primary
+    val accentGreen: Color = Color(0xFF04B731)
+    val accentRed: Color = Color(0xFFED1C24)
     val accentOrange: Color = Color(0xFFFF7A00)
     val accentYellow: Color = Color(0xFFFFBA0A)
     val accentPink: Color = Color(0xFFca49de)
