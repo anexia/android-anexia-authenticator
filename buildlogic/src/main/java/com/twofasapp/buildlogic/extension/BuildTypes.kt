@@ -11,7 +11,7 @@ internal fun Project.applyBuildTypes(
             getByName("debug") {
                 isMinifyEnabled = false
                 isDebuggable = true
-                signingConfig = signingConfigs.getByName("debug")
+                // signingConfig = signingConfigs.getByName("debug")
                 // applicationIdSuffix = ".debug"
             }
             /*
