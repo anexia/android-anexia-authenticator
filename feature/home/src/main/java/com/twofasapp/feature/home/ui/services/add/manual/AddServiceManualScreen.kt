@@ -398,7 +398,7 @@ internal fun AddServiceManualScreen(
         if (showRefreshTimeDialog) {
             ListRadioDialog(
                 onDismissRequest = { showRefreshTimeDialog = false },
-                options = listOf("10", "30", "60", "90"),
+                options = listOf("10", "30", "60", "90", "180", "300"),
                 selectedOption = uiState.refreshTime.toString(),
                 onOptionSelected = { _, value -> viewModel.updateRefreshTime(value.toInt()) }
             )

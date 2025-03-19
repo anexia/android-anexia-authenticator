@@ -8,6 +8,7 @@ import com.twofasapp.designsystem.TwTheme
 
 abstract class ThemeColors {
     abstract val primary: Color
+    abstract val secondary: Color
     abstract val background: Color
     abstract val surface: Color
     abstract val surfaceVariant: Color

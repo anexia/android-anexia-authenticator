@@ -68,6 +68,7 @@ internal fun SecurityScreen(
                     )
                 }
 
+                /*
                 item { SettingsDivider() }
                 item { SettingsHeader(title = stringResource(id = R.string.settings__biometrics)) }
 
@@ -80,7 +81,7 @@ internal fun SecurityScreen(
                         enabled = false,
                         onCheckedChange = { isChecked -> }
                     )
-                }
+                }*/
 
                 item { Divider(color = TwTheme.color.divider, modifier = Modifier.padding(vertical = 8.dp)) }
 
@@ -165,6 +166,7 @@ internal fun SecurityScreen(
                     )
                 }
 
+                /*
                 item { SettingsDivider() }
                 item { SettingsHeader(title = stringResource(id = R.string.settings__biometrics)) }
 
@@ -181,7 +183,7 @@ internal fun SecurityScreen(
                             }
                         }
                     )
-                }
+                } */
 
                 item { Divider(color = TwTheme.color.divider, modifier = Modifier.padding(vertical = 8.dp)) }
 
@@ -229,6 +231,7 @@ internal fun SecurityScreen(
             )
         }
 
+        /*
         if (showBiometricDialog) {
             BiometricDialog(
                 title = stringResource(id = R.string.biometric_dialog_setup_title),
@@ -244,7 +247,7 @@ internal fun SecurityScreen(
                 requireKeyValidation = false,
                 biometricKeyProvider = biometricKeyProvider
             )
-        }
+        }*/
 
         if (showScreenshotsConfirmDialog) {
             ConfirmDialog(

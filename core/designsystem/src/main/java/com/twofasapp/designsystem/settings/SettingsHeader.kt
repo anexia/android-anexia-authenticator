@@ -14,7 +14,6 @@ fun SettingsHeader(title: String) {
     Text(
         text = title,
         style = TwTheme.typo.body2,
-        color = TwTheme.color.primary,
         modifier = Modifier
             .fillMaxWidth()
             .padding(

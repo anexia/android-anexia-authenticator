@@ -8,6 +8,7 @@ import androidx.compose.ui.graphics.Color
 @Stable
 class ThemeColorsDark : ThemeColors() {
     override val primary: Color = Color(0xFF64A50A)
+    override val secondary: Color = Color(0xFF003CA6)
     override val background: Color = Color(0xFF2D2D2D)
     override val surface: Color = Color(0xFF1A1B21)
     override val surfaceVariant: Color = Color(0xFF232323)

@@ -16,12 +16,12 @@ android {
     defaultConfig {
         applicationId = "at.anexia.authenticator"
         versionName = "2.0.0"
-        versionCode = 20000
+        versionCode = 20002
     }
 
     applicationVariants.all {
         outputs.all {
-            val versionCodeOffset = 20000
+            val versionCodeOffset = 20001
             val output = this as? com.android.build.gradle.internal.api.BaseVariantOutputImpl
             output?.outputFileName = "AnxAuth-$versionName-${versionCode!! - versionCodeOffset}"
         }

@@ -8,6 +8,7 @@ import androidx.compose.ui.graphics.Color
 @Stable
 class ThemeColorsLight : ThemeColors() {
     override val primary: Color = Color(0xFF77BC1F)
+    override val secondary: Color = Color(0xFF003CA6)
     override val background: Color = Color(0xFFFFFFFF)
     override val surface: Color = Color(0xFFF9F9F9)
     override val surfaceVariant: Color = Color(0xFFEEEEEE)

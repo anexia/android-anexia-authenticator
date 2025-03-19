@@ -255,6 +255,8 @@ internal class ServicesRepositoryImpl(
                 otpPeriod == 30 -> 30
                 otpPeriod == 60 -> 60
                 otpPeriod == 90 -> 90
+                otpPeriod == 180 -> 180
+                otpPeriod == 300 -> 300
                 otpPeriod == null -> 30
                 else -> return false
             }
