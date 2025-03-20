@@ -34,7 +34,7 @@
     <!-- backup__icloud_has_been_disabled_by_user -->
     <string name="backup__icloud_disabled_title">iCloud has been disabled by the user</string>
     <!-- backup__turned_off_description_bold_part -->
-    <string name="backup__2fas_backup">Anexia Authenticator Backup</string>
+    <string name="backup__2fas_backup">Anexia Authenticator backup</string>
     <string name="commons__close">Close</string>
     <string name="commons__continue">Continue</string>
     <string name="commons__copy">Copy</string>
@@ -54,7 +54,7 @@
     <string name="commons__rename">Rename</string>
     <string name="commons__retry">Retry</string>
     <string name="commons__save">Save</string>
-    <string name="commons__scan_qr_code">Scan QR Code</string>
+    <string name="commons__scan_qr_code">Scan QR code</string>
     <string name="commons__service">Service</string>
     <string name="commons__set">Set</string>
     <string name="commons__skip">Skip</string>
@@ -102,7 +102,7 @@
     <!-- Original: Adding code -->
     <string name="notifications__adding_code">Adding a new code</string>
     <!-- notifications__private_key_copied -->
-    <string name="notifications__service_key_copied">Secret Key Copied</string>
+    <string name="notifications__service_key_copied">Secret key copied</string>
     <!-- voiceover__token_is_already_on_the_list -->
     <string name="notifications__token_already_added">This token is already present on the list</string>
     <string name="notifications__counter_copied">Counter Copied</string>
@@ -157,18 +157,18 @@
     <string name="tokens__move_to_trash">Move to Trash</string>
     <string name="tokens__additional_info">Additional info</string>
     <string name="tokens__choose_method">Choose method</string>
-    <string name="tokens__duplicated_private_key">Duplicated Secret Key</string>
+    <string name="tokens__duplicated_private_key">Duplicated secret key</string>
     <!-- tokens__incorrect_private_key -->
-    <string name="tokens__incorrect_service_key">Incorrect Secret key (only numbers 2 to 7, letters), max. 512 chars long</string>
+    <string name="tokens__incorrect_service_key">Incorrect secret key (only numbers 2 to 7, letters), max. 512 chars long</string>
     <string name="tokens__try_again">OK, let\'s try again</string>
     <!-- Original: To capture the QR code
         tokens__point_right_2fa_code -->
     <string name="tokens__scan_qr_code_title">Point your camera to the screen to scan the QR Code</string>
     <!-- tokens__private_key -->
-    <string name="tokens__service_key">Secret Key</string>
+    <string name="tokens__service_key">Secret key</string>
     <string name="tokens__qr_code_leads_to_app_store">This QR Code takes you to the App Store</string>
     <!-- tokens__remove_it_forever -->
-    <string name="tokens__remove_forever">Delete Token\u0020</string>
+    <string name="tokens__remove_forever">Delete token\u0020</string>
     <!-- tokens__search_by_service_name_or_login -->
     <string name="tokens__search_service_title">Search service</string>
     <!-- tokens__search_sorry_service_not_found -->
@@ -177,12 +177,12 @@
         tokens__search_take_another_try_different_search_term -->
     <string name="tokens__try_different_search_term">Take another try with a different search term</string>
     <string name="tokens__service_key_to_short">Key is too short. Minimum 4 characters</string>
-    <string name="tokens__service_name">Service Name</string>
+    <string name="tokens__service_name">Service name</string>
     <!-- tokens__this_private_key_exists_used_in -->
     <string name="tokens__service_key_already_used_title">Secret key from scanned code is already used in %s. You\'re probably scanning it again</string>
     <string name="tokens__this_qr_code_is_inavlid">This code is incorrect or not supported. Try again.</string>
-    <string name="tokens__type_service_name">Type Service Name</string>
-    <string name="tokens__enter_service_name">Enter Service Name</string>
+    <string name="tokens__type_service_name">Type service name</string>
+    <string name="tokens__enter_service_name">Enter service name</string>
     <!-- tokens__unfortunately_we_dont_know_that_service_name_it -->
     <string name="tokens__service_name_unknown_title">Unfortunately, we don\'t know that service. How would you like to name it?</string>
     <!-- tokens__you_wont_be_able_to_restore -->
@@ -190,7 +190,7 @@
     <string name="tokens__badge_color">Badge color</string>
     <string name="tokens__change_brand_icon">Change brand icon</string>
     <string name="tokens__change_label">Change label</string>
-    <string name="tokens__service_information">Service Information</string>
+    <string name="tokens__service_information">Service information</string>
     <string name="tokens__personalization">Personalization</string>
     <string name="tokens__brand_icon">Brand icon</string>
     <string name="tokens__label">Label</string>
@@ -202,7 +202,7 @@
     <string name="tokens__num_added">%s added</string>
     <string name="tokens__next_token">Next Token: %s</string>
     <string name="tokens__next_token_title">Next Token value</string>
-    <string name="tokens__my_tokens">My Tokens</string>
+    <string name="tokens__my_tokens">My tokens</string>
     <string name="tokens__removing_group">Removing Group</string>
     <!-- tokens__all_tokens_will_be_moved -->
     <string name="tokens__all_tokens_moved_to_group_title">All tokens will be moved to the group: \"My tokens\"</string>
@@ -276,14 +276,14 @@
     <string name="tokens__order_menu_option_company">Submit icon as a company</string>
     <!-- tokens__you_will_not_be_able_to_sign_in_to_your -->
     <string name="tokens__sign_in_not_possible_title">You will not be able to sign in to your %1$s account without this token, as long as you have second factor authentication for %2$s turned on.</string>
-    <string name="voiceover__show_service_key">Show Secret Key</string>
-    <string name="voiceover__copy_service_key">Copy Secret Key</string>
+    <string name="voiceover__show_service_key">Show secret key</string>
+    <string name="voiceover__copy_service_key">Copy secret key</string>
     <!-- voiceover__seconds_left -->
     <string name="voiceover__seconds_left_counter_title">Counter with seconds left to token change</string>
     <string name="voiceover__delete_button">Delete button</string>
     <string name="voiceover__service_deleted">Service deleted</string>
     <!-- voiceover__hidden_secret_key_use_show button -->
-    <string name="voiceover__reveal_hidden_secret_key_button_title">This field contains a hidden Secret Key. To reveal it, use the Show button. It will only work if you have set up the apps PIN for the lock screen</string>
+    <string name="voiceover__reveal_hidden_secret_key_button_title">This field contains a hidden secret key. To reveal it, use the Show button. It will only work if you have set up the apps PIN for the lock screen</string>
     <string name="voiceover__service_name">Service name: %s</string>
     <string name="voiceover__additional_info">Additional info: %s</string>
     <string name="voiceover__token_tap_to_copy">Token %s. Tap to copy</string>
@@ -306,7 +306,7 @@
     <string name="backup__incorrect_secret">Couldn\'t backup tokens because \"%s\" secret contains invalid characters. Remove it from list and try again</string>
     <string name="backup__import">Import</string>
     <string name="backup__export">Export</string>
-    <string name="backup__backup_disabled_title">Anexia Authenticator Backup will be disabled to protect its integrity</string>
+    <string name="backup__backup_disabled_title">Anexia Authenticator backup will be disabled to protect its integrity</string>
     <string name="backup__error_while_exporting_file">Error while exporting the file</string>
     <string name="backup__import_completed_successfuly">Import completed successfuly</string>
     <!-- camera__video_device_in_use_by_another_app -->
@@ -326,12 +326,12 @@
     <string name="backup__cloud_backup">Cloud Backup</string>
     <string name="backup__icloud_sync">iCloud Sync</string>
     <string name="backup__section_description">RECOMMENDED: iCloud Sync keeps your tokens secure in Apple iCloud in case of loss or damage to your device. Keep it turned on.</string>
-    <string name="backup__file_backup">File Backup</string>
+    <string name="backup__file_backup">File backup</string>
     <!-- backup__use_file_backup_for -->
-    <string name="backup__file_backup_offline_title">Use File Backup for offline backup of your tokens.</string>
+    <string name="backup__file_backup_offline_title">Use file backup for offline backup of your tokens.</string>
     <string name="backup__backup_removal">Backup removal</string>
-    <string name="backup__delete_2fas_backup">Delete Anexia Authenticator Backup</string>
-    <string name="backup__warning_introduction">Warning! If you delete Anexia Authenticator Backup, you will also erase all tokens from other devices synced with this account. To preserve the tokens on other devices, please ensure that you\'ve turned off the Anexia Authenticator Backup before the deletion.</string>
+    <string name="backup__delete_2fas_backup">Delete Anexia Authenticator backup</string>
+    <string name="backup__warning_introduction">Warning! If you delete Anexia Authenticator backup, you will also erase all tokens from other devices synced with this account. To preserve the tokens on other devices, please ensure that you\'ve turned off the Anexia Authenticator backup before the deletion.</string>
     <!-- backup__i_want_to_delete -->
     <string name="backup__delete_title">I want to delete the Backup</string>
     <string name="backup__export_to_backup_file">Export backup to file</string>
@@ -386,8 +386,8 @@
     <string name="settings__support_and_share">Support and Share</string>
     <string name="settings__tell_a_friend">Tell a friend</string>
     <string name="settings__write_a_review">Write a review</string>
-    <string name="settings__about">About</string>
-    <string name="settings__privacy_policy">Privacy Policy</string>
+    <string name="settings__about">About us</string>
+    <string name="settings__privacy_policy">Privacy policy</string>
     <string name="settings__terms_of_service">Terms of Service</string>
     <string name="settings__version">App version %s</string>
     <string name="settings__no_limit">No limit</string>
@@ -533,7 +533,7 @@
     <string name="commons__search">Search</string>
     <string name="errors__no_app">No application that supports this link</string>
     <string name="permissions__camera_permission">Camera Permission</string>
-    <string name="permissions__camera_permission_description">Camera permission is required to scan QR Codes. If you want to use this feature go to Application Information and Permissions and Enable Camera.</string>
+    <string name="permissions__camera_permission_description">Camera permission is required to scan QR codes. If you want to use this feature go to Application Information and Permissions and Enable Camera.</string>
     <string name="security__disable_pin">Disable PIN</string>
     <string name="security__enter_your_new_pin">Please enter your new %s PIN</string>
     <string name="security__pin_error_incorrect">PIN incorrect! Please try again</string>
@@ -556,13 +556,13 @@
     <string name="tokens__qr_read_image_try_again">Try to select a different image.</string>
     <string name="tokens__remove_it_forever">Delete service forever</string>
     <!-- Service could not be added, Service Key is invalid. Try again. -->
-    <string name="tokens__service_add_error">Service could not be added because Secret Key is invalid. Try again.</string>
+    <string name="tokens__service_add_error">Service could not be added because secret key is invalid. Try again.</string>
     <!-- A service with this Service Key already exists. Do you want to override it? -->
-    <string name="tokens__service_already_exists">Service with this Secret Key already exists. Do you want to override it?</string>
+    <string name="tokens__service_already_exists">Service with this secret key already exists. Do you want to override it?</string>
     <string name="tokens__service_key_invalid_characters">Key contains invalid characters</string>
-    <string name="tokens__show_service_key">Show Secret Key</string>
+    <string name="tokens__show_service_key">Show secret key</string>
     <!-- Your Service Key is protected. Please add PIN or Fingerprint lock in order to see it. -->
-    <string name="tokens__show_service_key_setup_lock">Your Secret key is protected. Please add a PIN or Fingerprint lock to see it.</string>
+    <string name="tokens__show_service_key_setup_lock">Your secret key is protected. Please add a PIN or Fingerprint lock to see it.</string>
     <string name="tokens__tokens_list_is_empty">Services list is empty</string>
     <string name="tokens__use_plus_button_to_add_tokens">Use the \"+\" button to add a new service</string>
     <string name="tokens__you_will_not_be_able_to_sign_in_to_your">You will be unable to sign in to your %1$s account without this token as long as you have two-factor authentication for %2$s enabled.\n\nYou will be unable to restore this token from Anexia Authenticator trash.</string>
@@ -584,8 +584,8 @@
     <string name="widgets_warning_msg">Tokens visible in the widget are not protected by your PIN code.\n\nAre you sure you want to display your tokens in the widget?</string>
     <string name="widgets_warning_title">WARNING!</string>
     <string name="widgets_warning_cta">Yes, I am sure</string>
-    <string name="backup_notice_title">Anexia Authenticator Backup</string>
-    <string name="backup_notice_msg">Enable Anexia Authenticator Backup. In the event of a reset or loss of your phone, you will be able to restore all your tokens.</string>
+    <string name="backup_notice_title">Anexia Authenticator backup</string>
+    <string name="backup_notice_msg">Enable Anexia Authenticator backup. In the event of a reset or loss of your phone, you will be able to restore all your tokens.</string>
     <string name="brand_empty_msg">Sorry, brand not found</string>
     <!-- Select which services will be visible on widget: -->
     <string name="widgets_select_msg">Select which services will be visible on the widget:</string>
@@ -685,7 +685,7 @@
     <string name="import_backup_msg1_encrypted">You are going to import an encrypted backup file.</string>
     <string name="externalimport__choose_json_cta">Choose JSON file</string>
     <string name="externalimport__aegis_msg">Export your accounts from Aegis to an unencrypted JSON file and upload it using the \"Choose JSON file\" button. Remember to remove the file after a successful import.</string>
-    <string name="externalimport__raivo_msg">Use the \"Export OTPs to ZIP archive\" option in Raivo\'s Settings, save a ZIP file, extract it and import the JSON file using the \"Choose JSON file\" button.</string>
+    <string name="externalimport__raivo_msg">Use the \"Export OTPs to ZIP archive\" option in Raivo\'s settings, save a ZIP file, extract it and import the JSON file using the \"Choose JSON file\" button.</string>
     <string name="externalimport__no_tokens_msg">However, there are no services that could be imported.</string>
     <string name="commons__try_again">Try again</string>
     <string name="commons__proceed">Proceed</string>
@@ -749,7 +749,7 @@
     <string name="tokens__add_manual_title">Pair the service with Anexia Authenticator</string>
     <string name="tokens__add_manual_description">Type in the service name and secret key.</string>
     <string name="tokens__add_manual_service_name">Service name</string>
-    <string name="tokens__add_manual_service_key">Secret Key</string>
+    <string name="tokens__add_manual_service_key">Secret key</string>
     <string name="tokens__add_manual_other">Other settings</string>
     <string name="tokens__add_manual_other_optional">(optional)</string>
     <string name="tokens__add_manual_done_cta">Add service</string>
@@ -822,7 +822,7 @@
     <string name="settings__info_footer">Your support allows us to develop new features and improvements. Thank you!</string>
     <string name="settings__trash_option">Retrieve from trash</string>
     <string name="periodic_notification_tips">Glad you\'re with us at Anexia Authenticator! 🌟 Take a moment to discover helpful Tips &amp; Tricks 🛠️ in the app for enhanced security 🔒.</string>
-    <string name="periodic_notification_backup">Enable Anexia Authenticator Backup &amp; Sync to ensure you never get locked out, even if you lose your phone - your peace of mind in one tap! 🔐📱</string>
+    <string name="periodic_notification_backup">Enable Anexia Authenticator backup &amp; sync to ensure you never get locked out, even if you lose your phone - your peace of mind in one tap! 🔐📱</string>
     <string name="periodic_notification_browser_extension">Speed up your logins with the Anexia Authenticator Browser Extension! 🚀 Download now for a faster, more convenient authentication. 🌐✨</string>
     <string name="periodic_notification_donate">We\'re grateful for your support of Anexia Authenticator! 🌟 If you find our app helpful, consider making a donation to help us keep your digital world secure. Every bit helps! 🙏💙</string>
     <!-- DO NOT TRANSLATE! -->
@@ -849,6 +849,6 @@
     <string name="appleWatch__installation_first_step">Install Anexia Authenticator Auth via Watch app</string>
     <string name="appleWatch__installation_first_step_link">Open Watch app</string>
     <string name="appleWatch__installation_second_step">Ensure your iCloud Sync is enabled</string>
-    <string name="appleWatch__installation_second_step_link">Go to Anexia Authenticator Backup settings</string>
+    <string name="appleWatch__installation_second_step_link">Go to Anexia Authenticator backup settings</string>
     <string name="settings__apple_watch">Apple Watch</string>
 </resources>
