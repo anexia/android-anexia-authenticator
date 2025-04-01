@@ -16,12 +16,12 @@ android {
     defaultConfig {
         applicationId = "at.anexia.authenticator"
         versionName = "2.0.0"
-        versionCode = 20002
+        versionCode = 20003
     }
 
     applicationVariants.all {
         outputs.all {
-            val versionCodeOffset = 20001
+            val versionCodeOffset = 20003
             val output = this as? com.android.build.gradle.internal.api.BaseVariantOutputImpl
             output?.outputFileName = "AnxAuth-$versionName-${versionCode!! - versionCodeOffset}"
         }
@@ -88,8 +88,6 @@ dependencies {
     implementation(libs.activityX)
     implementation(libs.coreSplash)
     implementation(platform(libs.firebaseBom))
-    implementation(libs.firebaseCrashlytics)
-    implementation(libs.firebaseMessaging)
     implementation(libs.playServicesCorutines)
     implementation(libs.googleApiClientGson)
     implementation(libs.googleApiClientAndroid) {

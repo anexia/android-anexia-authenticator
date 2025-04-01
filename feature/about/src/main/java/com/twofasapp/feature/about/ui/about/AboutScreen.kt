@@ -18,6 +18,7 @@ import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.platform.LocalUriHandler
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.res.stringResource
+import androidx.compose.ui.text.intl.Locale
 import androidx.compose.ui.unit.dp
 import androidx.core.app.ShareCompat
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
@@ -77,7 +78,12 @@ private fun ScreenContent(
 
                 item {
                     SettingsLink(title = TwLocale.strings.aboutPrivacyPolicy, icon = TwIcons.PrivacyPolicy, external = true) {
-                        uriHandler.openSafely(TwLocale.links.privacyPolicy, activity)
+                        val language = Locale.current.language
+                        if (language.lowercase() == "de") {
+                            uriHandler.openSafely(TwLocale.links.privacyPolicyDE, activity)
+                        } else {
+                            uriHandler.openSafely(TwLocale.links.privacyPolicyEN, activity)
+                        }
                     }
                 }
 
@@ -143,6 +149,8 @@ private fun ScreenContent(
 
                 item { SettingsDivider() }
 
+                /*
+
                 item { SettingsHeader(title = TwLocale.strings.aboutSendCrashes) }
 
                 item {
@@ -156,6 +164,7 @@ private fun ScreenContent(
                 }
 
                 item { SettingsDivider() }
+                */
 
                 item {
                     Row(
