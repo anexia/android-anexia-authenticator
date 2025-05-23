@@ -19,6 +19,7 @@ abstract class ThemeColors {
     abstract val serviceBackgroundWithGroups: Color
     abstract val switchTrack: Color
     abstract val switchThumb: Color
+    abstract val warning: Color
 
     val divider: Color
         get() = surfaceVariant

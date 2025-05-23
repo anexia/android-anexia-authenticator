@@ -55,7 +55,7 @@ fun animateExpireColor(timer: Int): State<Color> {
         targetValue = if (timer > ServiceExpireTransitionThreshold) {
             TwTheme.color.onSurfacePrimary
         } else {
-            TwTheme.color.secondary
+            TwTheme.color.warning
         },
         animationSpec = TweenSpec(),
         label = ""
