@@ -13,7 +13,6 @@ dependencies {
     implementation(libs.kotlinCoroutines)
     implementation(libs.timber)
     implementation(platform(libs.firebaseBom))
-    implementation(libs.firebaseCrashlytics)
     implementation(libs.firebaseMessaging)
     implementation(libs.playServicesCorutines)
 }

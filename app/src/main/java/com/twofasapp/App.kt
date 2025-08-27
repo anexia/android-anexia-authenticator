@@ -4,15 +4,13 @@ import android.app.Application
 import androidx.lifecycle.DefaultLifecycleObserver
 import androidx.lifecycle.LifecycleOwner
 import androidx.lifecycle.ProcessLifecycleOwner
-import at.anexia.BuildConfig
 import com.twofasapp.base.AuthTracker
+import com.twofasapp.base.BuildConfig
 import com.twofasapp.data.services.domain.CloudSyncTrigger
 import com.twofasapp.data.services.remote.CloudSyncWorkDispatcher
 import com.twofasapp.di.Modules
 import com.twofasapp.parsers.SupportedServices
 import com.twofasapp.prefs.usecase.SendCrashLogsPreference
-import io.realm.Realm
-import net.sqlcipher.database.SQLiteDatabase
 import org.koin.android.ext.android.inject
 import org.koin.android.ext.koin.androidContext
 import org.koin.core.context.startKoin
@@ -62,11 +60,5 @@ class App : Application() {
         })
 
         cloudSyncWorkDispatcher.tryDispatch(CloudSyncTrigger.AppStart)
-
-        try {
-            SQLiteDatabase.loadLibs(this)
-        } catch (e: Exception) {
-            e.printStackTrace()
-        }
     }
 }

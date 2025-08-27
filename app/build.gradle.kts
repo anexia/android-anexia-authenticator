@@ -15,13 +15,13 @@ android {
 
     defaultConfig {
         applicationId = "at.anexia.authenticator"
-        versionName = "2.0.1"
-        versionCode = 20004
+        versionName = "2.1.0"
+        versionCode = 20100
     }
 
     applicationVariants.all {
         outputs.all {
-            val versionCodeOffset = 20004
+            val versionCodeOffset = 20100
             val output = this as? com.android.build.gradle.internal.api.BaseVariantOutputImpl
             output?.outputFileName = "AnxAuth-$versionName-${versionCode!! - versionCodeOffset}"
         }
@@ -63,6 +63,7 @@ dependencies {
     implementation(project(":base"))
     implementation(project(":prefs"))
     implementation(project(":truetime"))
+    implementation(project(":secure-storage"))
     implementation(project(":parsers"))
 
     implementation(libs.bundles.appCompat)
@@ -81,7 +82,6 @@ dependencies {
     implementation(libs.timber)
     implementation(libs.webkit)
     implementation(libs.securityCrypto)
-    implementation(libs.secureStorage)
     implementation(libs.lottie)
     implementation(libs.kotlinCoroutines)
     implementation(libs.workManager)
@@ -89,6 +89,7 @@ dependencies {
     implementation(libs.coreSplash)
     implementation(platform(libs.firebaseBom))
     implementation(libs.playServicesCorutines)
+    implementation(libs.playFeatureDelivery)
     implementation(libs.googleApiClientGson)
     implementation(libs.googleApiClientAndroid) {
         exclude("org.apache.httpcomponents", "guava-jdk5")
@@ -105,8 +106,8 @@ dependencies {
     implementation(libs.realm.gradle.plugin)
 
     // ObjectBox - legacy
-    debugImplementation("io.objectbox:objectbox-android-objectbrowser:2.9.1")
-    releaseImplementation("io.objectbox:objectbox-android:2.9.1")
-    implementation("io.objectbox:objectbox-kotlin:2.9.1")
-    kapt("io.objectbox:objectbox-processor:2.9.1")
+    debugImplementation("io.objectbox:objectbox-android-objectbrowser:4.3.0")
+    releaseImplementation("io.objectbox:objectbox-android:4.3.0")
+    implementation("io.objectbox:objectbox-kotlin:4.3.0")
+    kapt("io.objectbox:objectbox-processor:4.3.0")
 }

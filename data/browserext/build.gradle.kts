@@ -18,6 +18,5 @@ dependencies {
     implementation(libs.kotlinSerialization)
     implementation(libs.timber)
     implementation(platform(libs.firebaseBom))
-    implementation(libs.firebaseCrashlytics)
     implementation(libs.firebaseMessaging)
 }

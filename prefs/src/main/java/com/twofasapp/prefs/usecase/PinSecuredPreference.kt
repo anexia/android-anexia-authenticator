@@ -15,14 +15,14 @@ class PinSecuredPreference(
     override val default: String = ""
 
     override fun get(): String {
-        return SecurePreferences.getStringValue(key, context, default) ?: default
+        return SecurePreferences.getStringValue(context, key, default) ?: default
     }
 
     override fun put(model: String) {
         if (model.isBlank()) {
-            SecurePreferences.removeValue(key, context)
+            SecurePreferences.removeValue(context, key)
         } else {
-            SecurePreferences.setValue(key, model, context)
+            SecurePreferences.setValue(context, key, model)
         }
     }
 }

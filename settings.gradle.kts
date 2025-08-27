@@ -19,6 +19,7 @@ dependencyResolutionManagement {
 }
 rootProject.name = "authenticator"
 include(":truetime")
+include(":secure-storage")
 include(":app")
 include(":base")
 include(":prefs")
